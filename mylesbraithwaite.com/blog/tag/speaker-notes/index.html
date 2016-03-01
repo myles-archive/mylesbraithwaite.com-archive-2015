@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Blog in Speaker Notes - Myles Braithwaite</title>
+		
+		
+		<meta name="description" content="Hoping for The Best, Imagining the Worst.">
+		<meta name="keywords" content="Myles, Alden, Braithwaite, Python, Programmer, Developer, Toronto, Ontario, Canada, Linux, Mac OS X">
+		<meta name="author" content="Myles Braithwaite">
+		
+<meta name="robots" contnet="noindex, follow">
+
+		
+		
+		<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Myles Braithwaite"><meta name="twitter:description" content="Hoping for The Best, Imagining the Worst."><meta name="twitter:site" content="@MylesWeb"><meta name="twitter:creator" content="@MylesB"><meta name="twitter:image" content="http://static.mylesbraithwaite.com/img/apple-touch-icon-144x144-precomposed.png"><meta property="og:image" content="http://static.mylesbraithwaite.com/img/apple-touch-icon-144x144-precomposed.png"><meta property="og:title" content="Myles Braithwaite"><meta property="og:type" content="website"><meta property="og:url" content="http://mylesbraithwaite.com">
+		
+    <link rel="openid2.provider"
+    href="https://openid.stackexchange.com/openid/provider">
+    <link rel="openid2.local_id"
+    href="https://openid.stackexchange.com/user/835eb470-181c-415a-8285-b0e01f251c39">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="shortcut icon" href="http://static.mylesbraithwaite.com/img/favicon.ico">
+
+		<link rel="apple-touch-icon-precomposed" href="http://static.mylesbraithwaite.com/img/apple-touch-icon-precomposed.png">
+		<meta name="apple-mobile-web-app-title" content="Myles B.">
+		
+		<meta name="application-name" content="Myles Braithwaite">
+		<meta name="msapplication-TileColor" content="#3c3c3c">
+		<meta name="msapplication-TileImage" content="//static.mylesbraithwaite.com/img/apple-touch-icon-144x144-precomposed.png">
+
+		
+		<link rel="stylesheet" href="http://static.mylesbraithwaite.com/CACHE/css/f4e2763463a4.css" type="text/css" />
+		
+		
+		<link rel="stylesheet" href="http://static.mylesbraithwaite.com/browserid/persona-buttons.css" />
+		
+		
+		<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-1642439-2']);_gaq.push(['_setDomainName','mylesbraithwaite.com']);_gaq.push(['_setAllowLinker',true]);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+		
+
+		<link rel="author" href="../../../about/index.html">
+
+		<link rel="search" type="application/opensearchdescription+xml" title="Myles Braithwaite Search" href="../../../opensearch.xml">
+
+		
+		<link rel="alternate" type="application/rss+xml" href="../../../feeds/index.html" title="Myles Braithwaite">
+		<link rel="alternate" type="application/rss+xml" href="../../../feeds/blog/index.html" title="Myles Braithwaite - Blog">
+		<link rel="alternate" type="application/rss+xml" href="../../../feeds/bookmarks/index.html" title="Myles Braithwaite - Bookmarks">
+		
+<link rel="alternate" type="application/rss+xml" href="../../../feeds/blog/tag/speaker-notes/index.html" title="Myles Braithwaite - Blog posts in Speaker Notes">
+
+ 		
+
+		
+    
+    <link rel="x-tor-hidden-service" href="http://mylesbraithwaite.com/blog/tag/speaker-notes/gvvsa367g2zkzjj3.onion">
+  </head>
+
+	<body id="blog" class="">
+		
+		
+<div id="browserid-info"
+     style="display: none;"
+     data-user-email=""
+     data-request-args="{}">
+</div>
+
+
+<form id="browserid-form" method="POST" action="http://mylesbraithwaite.com/browserid/login/" style="display: none;">
+  <input type='hidden' name='csrfmiddlewaretoken' value='yV3KjoxbDdwxHkv841LrmJHA17PrM0WG' />
+  <input name="assertion" type="hidden" /><input name="next" type="hidden" />
+</form>
+
+		
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<a class="navbar-brand" href="../../../index.html">
+						<span class="first">Myles</span>
+						<span class="last">Braithwaite</span>
+					</a>
+				</div> <!-- .navbar-header -->
+				
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="../../../index.html">Home</a></li>
+						<li class="active"><a href="../../index.html" title="Journal">Blog</a></li>
+						<li><a href="../../../bookmarks/index.html" title="Bookmarks">Bookmarks</a></li>
+						<li><a href="../../../about/index.html" title="About Myles Braithwaite">About</a></li>
+						<!-- <li><a href="/search/">Search</a></li> -->
+					</ul> <!-- .nav -->
+					
+					
+				</div> <!-- .navbar-collapse .collapse -->
+			</div> <!-- .container -->
+		</nav> <!-- .navbar .navbar-fixed-top -->
+		
+		<div class="container">
+			
+	<div class="page-header">
+		
+	<h1>Speaker Notes</h1>
+
+	</div>
+
+	<div class="row">
+		<div class="col-sm-8" id="content">
+			
+	<div id="blog_posts">
+		
+
+<article id="blog_post_1" itemscope itemtype="http://schema.org/BlogPosting">
+	<header>
+		<h3>
+			<a href="../../2009/oct/15/personal-website/index.html" itemprop="url">
+				<span itemprop="name">
+					So you want a Personal&nbsp;Website?
+				</span>
+			</a>
+			<br>
+			<small>
+				6 years, 4 months ago in <a href="../gtalug/index.html" rel="tag">GTALUG</a>, <a href="../website/index.html" rel="tag">Website</a>, <a href="../talk/index.html" rel="tag">Talk</a>,  and <a href="index.html" rel="tag">Speaker Notes</a>.
+			</small>
+		</h3>
+	</header>
+
+	<section itemprop="articleBody">
+		<p>This was my <a href="http://gtalug.org/wiki/Meetings:2009-10">presentation at the October&#8217;s <span class="caps">GTALUG</span> meeting</a>. You can view it on <a href="http://www.slideshare.net/mylesb/so-you-want-a-personal-website-2223734">Slide Share</a> and as a <a href="http://media.mylesbraithwaite.com/attachments/blog_post/1/Presentation.pdf"><span class="caps">PDF</span></a>.</p>
+<div class="row">
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="So you want a personal website?" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.001.png">
+<div class="caption">
+<h4>So you want a personal&nbsp;website?</h4>
+</div>
+</img></div>
+</div>
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="What do you want to do with your website?" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.002.png">
+<div class="caption">
+<h4>What do you want to do with your&nbsp;website?</h4>
+<p>This is the first question you want to ask yourself, What do I want to do with my website? What is the main&nbsp;subject.</p>
+</div>
+</img></div>
+</div>
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Single Purpose Web Sites" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.003.png">
+<div class="caption">
+<h4>Single Purpose Web&nbsp;Sites</h4>
+</div>
+</img></div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="One purpose idea." src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.004.png">
+<div class="caption">
+<p>The idea behind a single purpose website is one&nbsp;idea.</p>
+</div>
+</img></div>
+</div>
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="WhatDayOfWeek.com" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.005.png">
+<div class="caption">
+<h4>WhatDayOfTheWeek.com</h4>
+<p>Take as an example <a href="http://whatdayoftheweek.com/">WhatDayOfTheWeek.com</a> the only purpose for this website is to show the current day of the&nbsp;week.</p>
+</div>
+</img></div>
+</div>
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="DoWebsitesNeedToLookExactlyTheSameInEveryBrowser.com" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.006.png">
+<div class="caption">
+<h4>DoWebsitesNeedToLookExactly&#8230;</h4>
+<p>Here is another example <a href="http://DoWebsitesNeedToLookExactlyTheSameInEveryBrowser.com">DoWebsitesNeedToLookExactly&#8230;.com</a>.</p>
+</div>
+</img></div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Requirements for a Single Purpose website." src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.007.png">
+<div class="caption">
+<p>Their is minimal requirements to run a Single Purpose Website. You will need basic knowledge of <span class="caps">HTML</span> (or any <span class="caps">WYSIWYG</span> application like Open-Office.org) and almost any free web&nbsp;host.</p>
+</div>
+</img></div>
+</div>
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Journal (or Blog)" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.008.png">
+<div class="caption">
+</div>
+</img></div>
+</div>
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Content that is updated on a regular bases" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.009.png">
+<div class="caption">
+<p>A Journal or Blog is has content that is updated on a regular&nbsp;bases.</p>
+</div>
+</img></div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Kottke.org is an example of this." src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.010.png">
+<div class="caption">
+<p>The famous <a href="http://kottke.org">Kottke.org</a> is an example of content that is updated on a daily&nbsp;bases.</p>
+</div>
+</img></div>
+</div>
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Example of Blog software." src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.011.png">
+<div class="caption">
+<p>Their are many Open Source blogging software avaliable on the&nbsp;web.</p>
+<ul>
+<li><a href="http://wordpress.org/">WordPress</a> is kind of the industry standard blogging software. The also have a hosted version on <a href="http://wordpress.com/">WordPress.com</a>.</li>
+<li><a href="http://movabletype.org/">Movable Type</a> is probably my favorite, it generates static <span class="caps">HTML</span> files for the blog posts. But the administration interface it a blotted Perl and <span class="caps">PHP</span> thing that uses a lot of processing&nbsp;power.</li>
+<li><a href="http://pyblosxom.sf.net/">PyBlosxom</a> is a <a href="http://python.org">Python</a> based blogging software that uses&nbsp;<span class="caps">CGI</span>.</li>
+</ul>
+</div>
+</img></div>
+</div>
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Requirments for most blogging software" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.012.png">
+<div class="caption">
+<p>To run most blogging software you will require a dynamic language and a database (<a href="http://jekyllrb.com/">jekyll</a> only requires it on your workstation). One nice thing is that most blogging software have large communities for support and extensions and are well&nbsp;documented.</p>
+</div>
+</img></div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="But" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.013.png">
+<div class="caption">
+<p>Be ware of blogging software that allows for large customisations, like WordPress each plugin could double the amount of queries run on your&nbsp;database.</p>
+</div>
+</img></div>
+</div>
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Articles or Documents" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.014.png">
+<div class="caption">
+</div>
+</img></div>
+</div>
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Articles or Documents" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.015.png">
+<div class="caption">
+<p>These can be Technical documents, white papers, agenda items, meeting notes, etc. One thing to keep in mind when looking for a sutable software is that searching is extremly&nbsp;important.</p>
+</div>
+</img></div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Wikipedia" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.016.png">
+<div class="caption">
+</div>
+</img></div>
+</div>
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Design Explorations by 37signals" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.017.png">
+<div class="caption">
+</div>
+</img></div>
+</div>
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Document" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.018.png">
+<div class="caption">
+</div>
+</img></div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Wiki's" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.019.png">
+<div class="caption">
+<ul>
+<li><a href="http://mediawiki.org">MediaWiki</a> is a wiki software used by&nbsp;Wikipedia.</li>
+<li><a href="http://dokuwiki.org">DokuWiki</a> is a flat file wiki&nbsp;software.</li>
+</ul>
+</div>
+</img></div>
+</div>
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Non-wiki based Document Systems." src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.020.png">
+<div class="caption">
+<p>If you are looking for something non-wiki-based take a look at <a href="http://plone.org">Plone</a> and <a href="http://alfresco.com/">Alfresco</a>.</p>
+</div>
+</img></div>
+</div>
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Should I host my website...?" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.021.png">
+<div class="caption">
+<p>Now that you found a suitable software you should figure out where to host your&nbsp;website.</p>
+</div>
+</img></div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Home Server" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.022.png">
+<div class="caption">
+</div>
+</img></div>
+</div>
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Advantages" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.023.png">
+<div class="caption">
+</div>
+</img></div>
+</div>
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Bell Sucks" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.024.png">
+<div class="caption">
+</div>
+</img></div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Rogers Sucks" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.025.png">
+<div class="caption">
+</div>
+</img></div>
+</div>
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="ISP in Canada Suck" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.026.png">
+<div class="caption">
+</div>
+</img></div>
+</div>
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Disadvatages" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.027.png">
+<div class="caption">
+</div>
+</img></div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Free Dynamic DNS Providers" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.028.png">
+<div class="caption">
+</div>
+</img></div>
+</div>
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Shared Web Hosting" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.029.png">
+<div class="caption">
+</div>
+</img></div>
+</div>
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Advantages" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.030.png">
+<div class="caption">
+</div>
+</img></div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-4">
+<div class="thumbnail">
+<img alt="Disadvantages" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.031.png">
+<div class="caption">
+</div>
+</img></div>
+</div>
+<div class="col-sm-4 col-offset-4">
+<div class="thumbnail">
+<img alt="Soultions" src="http://media.mylesbraithwaite.com/attachments/blog_post/1/slide.032.png">
+<div class="caption">
+<p><a href="http://nearlyfreespeech.net">NearlyFreeSpeech</a> is&nbsp;awsome.</p>
+</div>
+</img></div>
+</div>
+</div>
+	</section>
+</article>
+
+
+	</div>
+	
+	
+
+			
+		</div>
+
+		<div class="col-sm-4" id="sidebar">
+			<aside>
+				<h3>Recent Blog Posts</h3>
+				
+				<div class="list-group">
+					
+					<a href="../../2015/mar/26/doing-talk-lesscss-aprils-gtalug-meeting/index.html" class="list-group-item">Doing a Talk on LessCSS at April&#8217;s <span class="caps">GTALUG</span>&nbsp;Meeting</a>
+					
+					<a href="../../2015/feb/24/jrnl-gtalug/index.html" class="list-group-item">Doing a short talk on jrnl at the next <span class="caps">GTALUG</span>&nbsp;Meeting</a>
+					
+					<a href="../../2014/feb/21/guardians-galaxy-poster-and-videos/index.html" class="list-group-item">Guardians of the Galaxy Poster and Meet the Guardians&nbsp;Videos</a>
+					
+					<a href="../../2014/jan/30/captain-america-winter-soldier/index.html" class="list-group-item">Captain America: The Winter&nbsp;Soldier</a>
+					
+					<a href="../../2014/jan/27/star-wars-and-marvels-twitter-converstation/index.html" class="list-group-item">Star Wars and Marvel&#8217;s Twitter&nbsp;Converstation</a>
+					
+				</div>
+			</aside>
+			
+			<hr>
+			
+			<aside>
+				<h3>Categories</h3>
+				
+				<div class="list-group">
+					
+					<a href="../../category/comic-books/index.html" class="list-group-item">Comic&nbsp;Books</a>
+					
+					<a href="../../category/egocentric/index.html" class="list-group-item">Egocentric</a>
+					
+					<a href="../../category/films/index.html" class="list-group-item">Films</a>
+					
+					<a href="http://mylesbraithwaite.com/blog/category/meta/" class="list-group-item">Meta</a>
+					
+					<a href="../../category/music/index.html" class="list-group-item">Music</a>
+					
+					<a href="../../category/programming/index.html" class="list-group-item">Programming</a>
+					
+					<a href="../../category/tech/index.html" class="list-group-item">Technology</a>
+					
+				</div>
+			</aside>
+		</div>
+	</div> <!-- .row -->
+
+		</div> <!-- .container -->
+		
+		<script type="text/javascript" src="http://static.mylesbraithwaite.com/CACHE/js/b308e2149f6b.js"></script>
+		
+		<script type="text/javascript" src="http://static.mylesbraithwaite.com/browserid/browserid.js"></script>
+<script type="text/javascript" src="https://login.persona.org/include.js"></script>
+		
+		
+	</body>
+</html>

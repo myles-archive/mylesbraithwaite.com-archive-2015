@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>What is the Django Template Tag intequaltest and an update on Django Quiz?</title>
+		
+		
+		<meta name="description" content="Hoping for The Best, Imagining the Worst.">
+		<meta name="keywords" content="Myles Braithwaite, What is the Django Template Tag intequaltest and an update on Django Quiz?, Django, Django Quiz, Python, Project">
+		<meta name="author" content="Myles Braithwaite">
+		
+		
+		
+		<meta name="twitter:card" content="summary"><meta name="twitter:title" content="What is the Django Template Tag intequaltest and an update on Django Quiz?"><meta name="twitter:description" content="Hoping for The Best, Imagining the Worst."><meta name="twitter:site" content="@MylesWeb"><meta name="twitter:creator" content="@MylesB"><meta name="twitter:image" content="http://static.mylesbraithwaite.com/img/apple-touch-icon-144x144-precomposed.png"><meta property="og:image" content="http://static.mylesbraithwaite.com/img/apple-touch-icon-144x144-precomposed.png"><meta property="og:title" content="What is the Django Template Tag intequaltest and an update on Django Quiz?"><meta property="og:type" content="article"><meta property="og:url" content="http://mylesbraithwaite.com/blog/2010/may/13/intequaltest-django-quiz/"><meta property="og:article:published_time" content="2010-05-13T00:00:00"><meta property="og:article:author:first_name" content="Myles"><meta property="og:article:author:last_name" content="Braithwaite"><meta property="og:article:author:username" content="myles"><meta property="og:article:tag" content="Django"><meta property="og:article:tag" content="Django Quiz"><meta property="og:article:tag" content="Python"><meta property="og:article:tag" content="Project">
+		
+    <link rel="openid2.provider"
+    href="https://openid.stackexchange.com/openid/provider">
+    <link rel="openid2.local_id"
+    href="https://openid.stackexchange.com/user/835eb470-181c-415a-8285-b0e01f251c39">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="shortcut icon" href="http://static.mylesbraithwaite.com/img/favicon.ico">
+
+		<link rel="apple-touch-icon-precomposed" href="http://static.mylesbraithwaite.com/img/apple-touch-icon-precomposed.png">
+		<meta name="apple-mobile-web-app-title" content="Myles B.">
+		
+		<meta name="application-name" content="Myles Braithwaite">
+		<meta name="msapplication-TileColor" content="#3c3c3c">
+		<meta name="msapplication-TileImage" content="//static.mylesbraithwaite.com/img/apple-touch-icon-144x144-precomposed.png">
+
+		
+		<link rel="stylesheet" href="http://static.mylesbraithwaite.com/CACHE/css/f4e2763463a4.css" type="text/css" />
+		
+		
+		<link rel="stylesheet" href="http://static.mylesbraithwaite.com/browserid/persona-buttons.css" />
+		
+		
+		<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-1642439-2']);_gaq.push(['_setDomainName','mylesbraithwaite.com']);_gaq.push(['_setAllowLinker',true]);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;_gaq.push(['_setCustomVar',2,'published-date','2010-05-13']);_gaq.push(['_setCustomVar',5,'tag','Django']);_gaq.push(['_setCustomVar',5,'tag','Django Quiz']);_gaq.push(['_setCustomVar',5,'tag','Python']);_gaq.push(['_setCustomVar',5,'tag','Project']);ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+		
+
+		<link rel="author" href="../../../../../about/index.html">
+
+		<link rel="search" type="application/opensearchdescription+xml" title="Myles Braithwaite Search" href="../../../../../opensearch.xml">
+
+		
+		<link rel="alternate" type="application/rss+xml" href="../../../../../feeds/index.html" title="Myles Braithwaite">
+		<link rel="alternate" type="application/rss+xml" href="../../../../../feeds/blog/index.html" title="Myles Braithwaite - Blog">
+		<link rel="alternate" type="application/rss+xml" href="../../../../../feeds/bookmarks/index.html" title="Myles Braithwaite - Bookmarks">
+		
+ 		
+
+		
+<link rel="canonical" type="text/html" href="index.html">
+<link rel="shorter" type="text/html" href="http://myl.be/x/jW">
+
+    
+    <link rel="x-tor-hidden-service" href="http://mylesbraithwaite.com/blog/2010/may/13/intequaltest-django-quiz/gvvsa367g2zkzjj3.onion">
+  </head>
+
+	<body id="blog" class="">
+		
+		
+<div id="browserid-info"
+     style="display: none;"
+     data-user-email=""
+     data-request-args="{}">
+</div>
+
+
+<form id="browserid-form" method="POST" action="http://mylesbraithwaite.com/browserid/login/" style="display: none;">
+  <input type='hidden' name='csrfmiddlewaretoken' value='yV3KjoxbDdwxHkv841LrmJHA17PrM0WG' />
+  <input name="assertion" type="hidden" /><input name="next" type="hidden" />
+</form>
+
+		
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<a class="navbar-brand" href="../../../../../index.html">
+						<span class="first">Myles</span>
+						<span class="last">Braithwaite</span>
+					</a>
+				</div> <!-- .navbar-header -->
+				
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="../../../../../index.html">Home</a></li>
+						<li class="active"><a href="../../../../index.html" title="Journal">Blog</a></li>
+						<li><a href="../../../../../bookmarks/index.html" title="Bookmarks">Bookmarks</a></li>
+						<li><a href="../../../../../about/index.html" title="About Myles Braithwaite">About</a></li>
+						<!-- <li><a href="/search/">Search</a></li> -->
+					</ul> <!-- .nav -->
+					
+					
+				</div> <!-- .navbar-collapse .collapse -->
+			</div> <!-- .container -->
+		</nav> <!-- .navbar .navbar-fixed-top -->
+		
+		<div class="container">
+			
+			<div id="main">
+			
+				
+<ul class="breadcrumb">
+	<li><a href="../../../../../index.html">Home</a></li>
+	<li><a href="../../../../index.html">Blog</a></li>
+	<li><a href="../../../../archive/index.html">Archive</a></li>
+	<li><a href="../../../index.html">2010</a></li>
+	<li><a href="../../index.html">May</a></li>
+	<li><a href="../index.html">13th</a></li>
+	<li>What is the Django Template Tag intequaltest and an update on Django Quiz?</li>
+</ul>
+
+				<article id="blog_post_22" itemscope itemtype="http://schema.org/BlogPosting">
+				
+				<div class="page-header">
+					
+	<header>
+		<h1>
+			<a href="index.html" itemprop="url">
+				<span itemprop="name">
+					What is the Django Template Tag intequaltest and an update on Django&nbsp;Quiz?
+				</span>
+			</a>
+		</h1>
+		
+		<p class="lead">
+			<small>5 years, 9 months ago in <a href="../../../../tag/django/index.html" rel="tag">Django</a>, <a href="../../../../tag/django-quiz/index.html" rel="tag">Django Quiz</a>, <a href="../../../../tag/python/index.html" rel="tag">Python</a>,  and <a href="../../../../tag/project/index.html" rel="tag">Project</a>.</small>
+		</p>
+	</header>
+
+				</div>
+				
+	<section itemprop="articleBody">
+		
+		
+		<div class="entry-content"><p><a href="http://gravitymad.com/">Travis Millward</a> <a href="http://mylesbraithwaite.com/projects/django-quiz/#c195">commented</a> on my <a href="http://mylesbraithwaite.com/projects/django-quiz">Django Quiz</a> project&nbsp;today:</p>
+<blockquote>
+<p>Hey Myles, I believe I&#8217;m going to checkout your django quiz. Can you explain what&nbsp;the</p>
+<p>{% if score.corrent_anwsers|intequaltest:question %}
+This wont work
+{% endif %}
+is doing? It looks really&nbsp;good!</p>
+</blockquote>
+<p>First I just like to say I love talking to people so if you ever have a question for me about anything (literally) don&#8217;t hesitate emailing me (<a href="mailto:me@mylesbraithwaite.com">me@mylesbraithwaite.com</a>) or chatting with me (<span class="caps">XMPP</span>/GTalk <a href="mailto:me@mylesbraithwaite.com">me@mylesbraithwaite.com</a>).</p>
+<p %="" endhighlight="">{% highlight python %}
+def intequaltest(value, arg):
+    return (value ==&nbsp;arg)</p>
+<p>Okay so <code>intequaltest</code> is got to be the studied template tag in the world. It&#8217;s sole purpose is to see if two things (i.e. a <code>list</code>, <code>str</code>, <code>dict</code>, etc.) are the same and if they are return <code>True</code> or <code>False</code>. In this case see if the correct answer is equal to the answer they gave. I will go into the history a little later in this post but essentially this application use to work a lot differently and the only reason this template tag is in here is because I have an issue with copying and&nbsp;pasting.</p>
+<p>When I first started developing the Django Quiz application in 2008 it was for a client. They wanted to quiz their sales consultants on very complex financial process. The consultants could take each quiz as many times as they want, but their &#8220;score&#8221; wouldn&#8217;t be submitted to their manager until they got&nbsp;prefix.</p>
+<p>I spent about a two days in July (10th, and 11th) developing this application for the client. In the middle of my second day the client came to me and said they found a better solution, a pice of paper and a&nbsp;pencil.</p>
+<p>I have been asked about this application five or six times in the last month, so I guess it is about time I write my formal apology. This application doesn&#8217;t work. I tried to start up again on April 28, but my heart isn&#8217;t really there anymore (my heart was not really there the first time but I was getting&nbsp;paid).</p>
+<p>So will this application ever be completed? Maybe, if one day I wake up and get really excited about coding it again or a client comes along and ask me to code them a quiz&nbsp;application.</p></div>
+	</section>
+	
+	
+
+				<hr/>
+				
+	
+
+				
+				</article>
+			
+			</div> <!-- #main -->
+
+			<footer id="bottom">
+				<hr>
+				<p>Copyright &copy; 2006&mdash;2016 <a href="../../../../../about/license/index.html" title="License">Creative Commons License</a> by <a href="../../../../../about/index.html" title="Myles Alden Braithwaite">Myles&nbsp;Braithwaite</a>.</p>
+				
+			</footer> <!-- footer#bottom -->
+			
+		</div> <!-- .container -->
+		
+		<script type="text/javascript" src="http://static.mylesbraithwaite.com/CACHE/js/b308e2149f6b.js"></script>
+		
+		<script type="text/javascript" src="http://static.mylesbraithwaite.com/browserid/browserid.js"></script>
+<script type="text/javascript" src="https://login.persona.org/include.js"></script>
+		
+		
+	</body>
+</html>

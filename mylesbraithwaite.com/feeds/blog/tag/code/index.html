@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Myles Braithwaite: weblog entries tagged in Code.</title><link>http://mylesbraithwaite.com/blog/tag/Code/</link><description>Hoping for the Best, Imagining the Worst.</description><atom:link href="http://mylesbraithwaite.com/feeds/blog/tag/code/" rel="self"></atom:link><language>en-ca</language><lastBuildDate>Wed, 24 Nov 2010 00:00:00 -0500</lastBuildDate><item><title>How to find if a directory or file exists in Bash</title><link>http://mylesbraithwaite.com/blog/2010/nov/24/how-find-if-directory-or-file-exists-bash/</link><description>&lt;p&gt;This is a quick service announcement on how to find if a directory or file exists in Bash.&lt;/p&gt;
+&lt;table class="codehilitetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="c"&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class="c"&gt;# Notice the '-d'&lt;/span&gt;
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt; -d ~/.bin-private &lt;span class="o"&gt;]&lt;/span&gt;; &lt;span class="k"&gt;then&lt;/span&gt;
+&lt;span class="k"&gt;    &lt;/span&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;"Your private bin exists."&lt;/span&gt;
+&lt;span class="k"&gt;else&lt;/span&gt;
+&lt;span class="k"&gt;    &lt;/span&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;"Your private bin doesn't exists."&lt;/span&gt;
+&lt;span class="k"&gt;fi&lt;/span&gt;
+
+&lt;span class="c"&gt;# Notice the '-f'&lt;/span&gt;
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt; -f ~/.ssh/config &lt;span class="o"&gt;]&lt;/span&gt;; &lt;span class="k"&gt;then&lt;/span&gt;
+&lt;span class="k"&gt;    &lt;/span&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;"You have configured SSH."&lt;/span&gt;
+&lt;span class="k"&gt;else&lt;/span&gt;
+&lt;span class="k"&gt;    &lt;/span&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;"You haven't configured SSH."&lt;/span&gt;
+&lt;span class="k"&gt;fi&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p&gt;You're Welcome.&lt;/p&gt;</description><author>me@mylesbraithwaite.com (Myles Braithwaite)</author><pubDate>Wed, 24 Nov 2010 00:00:00 -0500</pubDate><guid>http://mylesbraithwaite.com/blog/2010/nov/24/how-find-if-directory-or-file-exists-bash/</guid><category>Bash</category><category>Snippet</category><category>Code</category></item></channel></rss>

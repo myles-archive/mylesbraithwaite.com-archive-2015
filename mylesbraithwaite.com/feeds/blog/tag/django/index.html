@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Myles Braithwaite: weblog entries tagged in Django.</title><link>http://mylesbraithwaite.com/blog/tag/Django/</link><description>Hoping for the Best, Imagining the Worst.</description><atom:link href="http://mylesbraithwaite.com/feeds/blog/tag/django/" rel="self"></atom:link><language>en-ca</language><lastBuildDate>Mon, 25 Apr 2011 14:51:00 -0400</lastBuildDate><item><title>What The Frigga</title><link>http://mylesbraithwaite.com/blog/2011/apr/25/what-the-frigga/</link><description>&lt;p&gt;&lt;strong&gt;Frigga&lt;/strong&gt; is basically a pretty wrapper around &lt;a href="http://pypi.python.org/pypi/django-contacts"&gt;Django Contacts&lt;/a&gt; so you could run it like a CRM or contact management system for people who aren't comfortable with the Django Administration application.&lt;/p&gt;
+&lt;div class="inline illustration"&gt;
+&lt;a href="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-04-25-what-the-frigga/frigga-screenshot.png" title="Frigga"&gt;
+&lt;img alt="Frigga" src="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-04-25-what-the-frigga/frigga-screenshot-small.png"&gt;
+&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: Frigga is a character in &lt;em&gt;Journey into Mystery&lt;/em&gt; (i.e. Thor).&lt;/p&gt;</description><author>me@mylesbraithwaite.com (Myles Braithwaite)</author><pubDate>Mon, 25 Apr 2011 14:51:00 -0400</pubDate><guid>http://mylesbraithwaite.com/blog/2011/apr/25/what-the-frigga/</guid><category>Django</category><category>Frigga</category><category>Contact Management</category><category>Project</category></item><item><title>What is the Django Template Tag intequaltest and an update on Django Quiz?</title><link>http://mylesbraithwaite.com/blog/2010/may/13/intequaltest-django-quiz/</link><description>&lt;p&gt;&lt;a href="http://gravitymad.com/"&gt;Travis Millward&lt;/a&gt; &lt;a href="http://mylesbraithwaite.com/projects/django-quiz/#c195"&gt;commented&lt;/a&gt; on my &lt;a href="http://mylesbraithwaite.com/projects/django-quiz"&gt;Django Quiz&lt;/a&gt; project today:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hey Myles, I believe I'm going to checkout your django quiz. Can you explain what the&lt;/p&gt;
+&lt;p&gt;{% if score.corrent_anwsers|intequaltest:question %}
+This wont work
+{% endif %}
+is doing? It looks really good!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;First I just like to say I love talking to people so if you ever have a question for me about anything (literally) don't hesitate emailing me (&lt;a href="mailto:me@mylesbraithwaite.com"&gt;me@mylesbraithwaite.com&lt;/a&gt;) or chatting with me (XMPP/GTalk &lt;a href="mailto:me@mylesbraithwaite.com"&gt;me@mylesbraithwaite.com&lt;/a&gt;).&lt;/p&gt;
+&lt;p %="" endhighlight=""&gt;{% highlight python %}
+def intequaltest(value, arg):
+    return (value == arg)&lt;/p&gt;
+&lt;p&gt;Okay so &lt;code&gt;intequaltest&lt;/code&gt; is got to be the studied template tag in the world. It's sole purpose is to see if two things (i.e. a &lt;code&gt;list&lt;/code&gt;, &lt;code&gt;str&lt;/code&gt;, &lt;code&gt;dict&lt;/code&gt;, etc.) are the same and if they are return &lt;code&gt;True&lt;/code&gt; or &lt;code&gt;False&lt;/code&gt;. In this case see if the correct answer is equal to the answer they gave. I will go into the history a little later in this post but essentially this application use to work a lot differently and the only reason this template tag is in here is because I have an issue with copying and pasting.&lt;/p&gt;
+&lt;p&gt;When I first started developing the Django Quiz application in 2008 it was for a client. They wanted to quiz their sales consultants on very complex financial process. The consultants could take each quiz as many times as they want, but their "score" wouldn't be submitted to their manager until they got prefix.&lt;/p&gt;
+&lt;p&gt;I spent about a two days in July (10th, and 11th) developing this application for the client. In the middle of my second day the client came to me and said they found a better solution, a pice of paper and a pencil.&lt;/p&gt;
+&lt;p&gt;I have been asked about this application five or six times in the last month, so I guess it is about time I write my formal apology. This application doesn't work. I tried to start up again on April 28, but my heart isn't really there anymore (my heart was not really there the first time but I was getting paid).&lt;/p&gt;
+&lt;p&gt;So will this application ever be completed? Maybe, if one day I wake up and get really excited about coding it again or a client comes along and ask me to code them a quiz application.&lt;/p&gt;</description><author>me@mylesbraithwaite.com (Myles Braithwaite)</author><pubDate>Thu, 13 May 2010 00:00:00 -0400</pubDate><guid>http://mylesbraithwaite.com/blog/2010/may/13/intequaltest-django-quiz/</guid><category>Django</category><category>Django Quiz</category><category>Python</category><category>Project</category></item><item><title>Asgard CMS</title><link>http://mylesbraithwaite.com/blog/2009/aug/4/asgard-cms/</link><description>&lt;p&gt;When I first started developing this website I always wanted to release the source code. Over the months only a select few (the ones who emailed me and asked) have received any code. I have started to release the project slowly at &lt;a href="http://gitorious.org/"&gt;Gitorious&lt;/a&gt; under the team &lt;a href="http://gitorious.org/+asgard-project"&gt;Asgard Project&lt;/a&gt;. I also bought the domain asgardproject.org (nothing to see yet) for documentation.&lt;/p&gt;
+&lt;p&gt;My hope is that someone will find it useful.&lt;/p&gt;</description><author>me@mylesbraithwaite.com (Myles Braithwaite)</author><pubDate>Tue, 04 Aug 2009 00:00:00 -0400</pubDate><guid>http://mylesbraithwaite.com/blog/2009/aug/4/asgard-cms/</guid><category>Asgard Project</category><category>Django</category><category>Open Source</category></item><item><title>A Django Intranet</title><link>http://mylesbraithwaite.com/blog/2009/jun/9/django-intranet/</link><description>&lt;div class="update"&gt;
+&lt;p&gt;&lt;strong&gt;29th April 2011&lt;/strong&gt;: I have started working on a &lt;a href="http://mylesbraithwaite.com/journal/2011/04/what-the-frigga/" title="What The Frigga"&gt;CRM application called Frigga&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;At work I started developing a intranet, nothing to complicated just an address
+book, microblog, timesheet, and forum. I knew from the beginning of development
+I wanted to release the final project open source. But it was developed in the
+monolithic approach (one project for multiple ideas) so instead I am releasing
+one sentence ideas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;django-blogs: A multi-person blog similar to MovableType.&lt;/li&gt;
+&lt;li&gt;django-bugle: A microblog. (This isn't my originally code I forked it off &lt;a href="http://simonwillison.net/"&gt;Simon Willson&lt;/a&gt;'s &lt;a href="http://github.com/simonw/bugle_project"&gt;Bugle Project&lt;/a&gt; and made it a more portable application.)&lt;/li&gt;
+&lt;li&gt;django-calendar: This is a fork of my &lt;a href="/calendar/"&gt;Asgard Calendar&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://github.com/myles/django-contacts/tree/master"&gt;django-contacts&lt;/a&gt;: An address book application we are using to keep track of employee contact information.&lt;/li&gt;
+&lt;li&gt;django-forums: A Django Forum application.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://github.com/myles/django-issues/tree/master"&gt;django-issues&lt;/a&gt;: An issue tracker.&lt;/li&gt;
+&lt;li&gt;django-projects: An internal project tracker.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://github.com/myles/django-timecard/tree/master"&gt;django-timecard&lt;/a&gt;: A timesheet without projects or issues.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://github.com/myles/django-timesheet/tree/master"&gt;django-timesheet&lt;/a&gt;: A timesheet for projects, tasks, and issues.&lt;/li&gt;
+&lt;li&gt;django-voting: An &lt;a href="http://www.apache.org/foundation/voting.html"&gt;Apache Style&lt;/a&gt; voting application.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I still have to release django-voting, django-projects, django-forums,
+django-calendar, django-bugle, and django-blogs which will probably be some
+time next week and I also want to do a &lt;a href="http://pinaxproject.com/"&gt;Pinax&lt;/a&gt; style
+release at the end of the month.&lt;/p&gt;</description><author>me@mylesbraithwaite.com (Myles Braithwaite)</author><pubDate>Tue, 09 Jun 2009 00:00:00 -0400</pubDate><guid>http://mylesbraithwaite.com/blog/2009/jun/9/django-intranet/</guid><category>Django</category><category>Intranet</category><category>Applications</category><category>Projects</category></item><item><title>Generate a secret key for your Django Application</title><link>http://mylesbraithwaite.com/blog/2007/oct/12/secret-key/</link><description>&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="c"&gt;#!/usr/bin/python&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;string&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;random&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;choice&lt;/span&gt;
+
+&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s"&gt;''&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;join&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;
+    &lt;span class="n"&gt;choice&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;string&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;letters&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;string&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;digits&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;string&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;punctuation&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;50&lt;/span&gt;&lt;span class="p"&gt;)])&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</description><author>me@mylesbraithwaite.com (Myles Braithwaite)</author><pubDate>Fri, 12 Oct 2007 00:00:00 -0400</pubDate><guid>http://mylesbraithwaite.com/blog/2007/oct/12/secret-key/</guid><category>Django</category><category>Snippets</category><category>Python</category></item></channel></rss>

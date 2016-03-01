@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Blog in Python - Myles Braithwaite</title>
+		
+		
+		<meta name="description" content="Hoping for The Best, Imagining the Worst.">
+		<meta name="keywords" content="Myles, Alden, Braithwaite, Python, Programmer, Developer, Toronto, Ontario, Canada, Linux, Mac OS X">
+		<meta name="author" content="Myles Braithwaite">
+		
+<meta name="robots" contnet="noindex, follow">
+
+		
+		
+		<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Myles Braithwaite"><meta name="twitter:description" content="Hoping for The Best, Imagining the Worst."><meta name="twitter:site" content="@MylesWeb"><meta name="twitter:creator" content="@MylesB"><meta name="twitter:image" content="http://static.mylesbraithwaite.com/img/apple-touch-icon-144x144-precomposed.png"><meta property="og:image" content="http://static.mylesbraithwaite.com/img/apple-touch-icon-144x144-precomposed.png"><meta property="og:title" content="Myles Braithwaite"><meta property="og:type" content="website"><meta property="og:url" content="http://mylesbraithwaite.com">
+		
+    <link rel="openid2.provider"
+    href="https://openid.stackexchange.com/openid/provider">
+    <link rel="openid2.local_id"
+    href="https://openid.stackexchange.com/user/835eb470-181c-415a-8285-b0e01f251c39">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="shortcut icon" href="http://static.mylesbraithwaite.com/img/favicon.ico">
+
+		<link rel="apple-touch-icon-precomposed" href="http://static.mylesbraithwaite.com/img/apple-touch-icon-precomposed.png">
+		<meta name="apple-mobile-web-app-title" content="Myles B.">
+		
+		<meta name="application-name" content="Myles Braithwaite">
+		<meta name="msapplication-TileColor" content="#3c3c3c">
+		<meta name="msapplication-TileImage" content="//static.mylesbraithwaite.com/img/apple-touch-icon-144x144-precomposed.png">
+
+		
+		<link rel="stylesheet" href="http://static.mylesbraithwaite.com/CACHE/css/f4e2763463a4.css" type="text/css" />
+		
+		
+		<link rel="stylesheet" href="http://static.mylesbraithwaite.com/browserid/persona-buttons.css" />
+		
+		
+		<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-1642439-2']);_gaq.push(['_setDomainName','mylesbraithwaite.com']);_gaq.push(['_setAllowLinker',true]);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+		
+
+		<link rel="author" href="../../../about/index.html">
+
+		<link rel="search" type="application/opensearchdescription+xml" title="Myles Braithwaite Search" href="../../../opensearch.xml">
+
+		
+		<link rel="alternate" type="application/rss+xml" href="../../../feeds/index.html" title="Myles Braithwaite">
+		<link rel="alternate" type="application/rss+xml" href="../../../feeds/blog/index.html" title="Myles Braithwaite - Blog">
+		<link rel="alternate" type="application/rss+xml" href="../../../feeds/bookmarks/index.html" title="Myles Braithwaite - Bookmarks">
+		
+<link rel="alternate" type="application/rss+xml" href="../../../feeds/blog/tag/python/index.html" title="Myles Braithwaite - Blog posts in Python">
+
+ 		
+
+		
+    
+    <link rel="x-tor-hidden-service" href="http://mylesbraithwaite.com/blog/tag/python/gvvsa367g2zkzjj3.onion">
+  </head>
+
+	<body id="blog" class="">
+		
+		
+<div id="browserid-info"
+     style="display: none;"
+     data-user-email=""
+     data-request-args="{}">
+</div>
+
+
+<form id="browserid-form" method="POST" action="http://mylesbraithwaite.com/browserid/login/" style="display: none;">
+  <input type='hidden' name='csrfmiddlewaretoken' value='yV3KjoxbDdwxHkv841LrmJHA17PrM0WG' />
+  <input name="assertion" type="hidden" /><input name="next" type="hidden" />
+</form>
+
+		
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<a class="navbar-brand" href="../../../index.html">
+						<span class="first">Myles</span>
+						<span class="last">Braithwaite</span>
+					</a>
+				</div> <!-- .navbar-header -->
+				
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="../../../index.html">Home</a></li>
+						<li class="active"><a href="../../index.html" title="Journal">Blog</a></li>
+						<li><a href="../../../bookmarks/index.html" title="Bookmarks">Bookmarks</a></li>
+						<li><a href="../../../about/index.html" title="About Myles Braithwaite">About</a></li>
+						<!-- <li><a href="/search/">Search</a></li> -->
+					</ul> <!-- .nav -->
+					
+					
+				</div> <!-- .navbar-collapse .collapse -->
+			</div> <!-- .container -->
+		</nav> <!-- .navbar .navbar-fixed-top -->
+		
+		<div class="container">
+			
+	<div class="page-header">
+		
+	<h1>Python</h1>
+
+	</div>
+
+	<div class="row">
+		<div class="col-sm-8" id="content">
+			
+	<div id="blog_posts">
+		
+
+<article id="blog_post_58" itemscope itemtype="http://schema.org/BlogPosting">
+	<header>
+		<h3>
+			<a href="../../2015/feb/24/jrnl-gtalug/index.html" itemprop="url">
+				<span itemprop="name">
+					Doing a short talk on jrnl at the next <span class="caps">GTALUG</span>&nbsp;Meeting
+				</span>
+			</a>
+			<br>
+			<small>
+				1 year ago in <a href="../gtalug/index.html" rel="tag">GTALUG</a>, <a href="../talk/index.html" rel="tag">Talk</a>, <a href="../jrnl/index.html" rel="tag">jrnl</a>,  and <a href="index.html" rel="tag">Python</a>.
+			</small>
+		</h3>
+	</header>
+
+	<section itemprop="articleBody">
+		<p>I&#8217;m doing a short talk <a href="http://gtalug.org/meeting/2015-03/">at the next <span class="caps">GTALUG</span> meeting</a> on 10th March at 7:30pm at Ryerson University on <a href="http://maebert.github.io/jrnl/">jrnl</a> a command line journal application written in Python. You should definitily come&nbsp;out.</p>
+<p>Download the <a href="http://media.mylesbraithwaite.com/attachments/blog_post/58/gtalug-meeting.ics">iCalendar file</a> or <a href="https://www.google.com/calendar/hosted/mylesbraithwaite.com/event?action=TEMPLATE&amp;tmeid=aWsydnE1cjY3ODk2anEydnFrNG1yZ2c0MDggbWVAbXlsZXNicmFpdGh3YWl0ZS5jb20&amp;tmsrc=me%40mylesbraithwaite.com">add the event to your Google Calendar</a>.</p>
+<h3 id="update">Update</h3>
+<p>You can view <a href="https://github.com/myles/2015-03-10-jrnl/blob/master/presentation.md" title="Presentation on jrnl">my slides over on GitHub</a>.</p>
+	</section>
+</article>
+
+<hr>
+
+<article id="blog_post_48" itemscope itemtype="http://schema.org/BlogPosting">
+	<header>
+		<h3>
+			<a href="../../2011/jun/28/get-an-opml-file-of-all-your-public-twitter-lists/index.html" itemprop="url">
+				<span itemprop="name">
+					Get an <span class="caps">OPML</span> File of All Your Public Twitter&nbsp;Lists
+				</span>
+			</a>
+			<br>
+			<small>
+				4 years, 8 months ago in <a href="../twitter/index.html" rel="tag">Twitter</a>, <a href="../feed/index.html" rel="tag">Feed</a>,  and <a href="index.html" rel="tag">Python</a>.
+			</small>
+		</h3>
+	</header>
+
+	<section itemprop="articleBody">
+		<p>I made this simple python script today to get an <span class="caps">OPML</span> file (to be imported into Google Reader) of all my Twitter&nbsp;lists.</p>
+<div class="codehilite"><pre><span class="c">#!/usr/bin/env python</span>
+
+<span class="n">__version__</span> <span class="o">=</span> <span class="s">'0.1'</span>
+<span class="n">__project_name__</span> <span class="o">=</span> <span class="s">'TwitterListOPML'</span>
+<span class="n">__project_link__</span> <span class="o">=</span> <span class="s">'https://gist.github.com/1051517'</span>
+
+<span class="n">TWITTER_LISTS_URL</span> <span class="o">=</span> <span class="s">"http://api.twitter.com/1/</span><span class="si">%(username)s</span><span class="s">/lists.json"</span>
+<span class="n">TWITTER_LIST_FEED_URL</span> <span class="o">=</span> <span class="s">"http://api.twitter.com/1/</span><span class="si">%(username)s</span><span class="s">/lists/</span><span class="si">%(list)s</span><span class="s">/statuses.atom"</span>
+<span class="n">TWITTER_LIST_HTML_URL</span> <span class="o">=</span> <span class="s">"http://twitter.com/</span><span class="si">%(username)s</span><span class="s">/</span><span class="si">%(list)s</span><span class="s">"</span>
+
+<span class="n">OPML_START</span> <span class="o">=</span> <span class="s">"""&lt;?xml version="1.0" encoding="<span class="caps">UTF</span>-8"?&gt;</span>
+<span class="s">&lt;!-- <span class="caps">OPML</span> generated by TwitterListOPML --&gt;</span>
+<span class="s">&lt;opml version="1.1"&gt;</span>
+<span class="s">    &lt;head&gt;</span>
+<span class="s">        &lt;title&gt;Twitter Lists&lt;/title&gt;</span>
+<span class="s">    &lt;/head&gt;</span>
+<span class="s">    &lt;body&gt;</span>
+<span class="s">        &lt;outline text="Twitter Lists" title="Twitter Lists"&gt;"""</span>
+<span class="n">OPML_END</span> <span class="o">=</span> <span class="s">"""      &lt;/outline&gt;</span>
+<span class="s">    &lt;/body&gt;</span>
+<span class="s">&lt;/opml&gt;"""</span>
+
+<span class="n">OPML_OUTLINE_FEED</span> <span class="o">=</span> <span class="s">'&lt;outline text="</span><span class="si">%(title)s</span><span class="s">" title="</span><span class="si">%(title)s</span><span class="s">" type="rss" version="<span class="caps">RSS</span>" htmlUrl="</span><span class="si">%(html_url)s</span><span class="s">" xmlUrl="</span><span class="si">%(xml_url)s</span><span class="s">" /&gt;'</span>
+
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">urllib2</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="kn">import</span> <span class="nn">json</span>
+<span class="k">except</span> <span class="ne">ImportError</span><span class="p">:</span>
+    <span class="kn">import</span> <span class="nn">simplejson</span> <span class="kn">as</span> <span class="nn">json</span>
+
+<span class="k">def</span> <span class="nf">get_lists</span><span class="p">(</span><span class="n">url</span><span class="p">):</span>
+    <span class="n">request</span> <span class="o">=</span> <span class="n">urllib2</span><span class="o">.</span><span class="n">Request</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+    <span class="n">request</span><span class="o">.</span><span class="n">add_header</span><span class="p">(</span><span class="s">'User-Agent'</span><span class="p">,</span> <span class="s">'</span><span class="si">%s</span><span class="s">/</span><span class="si">%s</span><span class="s"> +</span><span class="si">%s</span><span class="s">'</span> <span class="o">%</span> <span class="p">(</span>
+        <span class="n">__project_name__</span><span class="p">,</span> <span class="n">__version__</span><span class="p">,</span> <span class="n">__project_link__</span>
+    <span class="p">))</span>
+    <span class="n">opener</span> <span class="o">=</span> <span class="n">urllib2</span><span class="o">.</span><span class="n">build_opener</span><span class="p">()</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">opener</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">request</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">username</span><span class="p">):</span>
+    <span class="n">t_lists</span> <span class="o">=</span> <span class="n">get_lists</span><span class="p">(</span><span class="n">TWITTER_LISTS_URL</span> <span class="o">%</span> <span class="p">{</span><span class="s">'username'</span><span class="p">:</span> <span class="n">username</span><span class="p">})</span>
+
+    <span class="k">print</span> <span class="n">OPML_START</span>
+
+    <span class="k">for</span> <span class="n">t_list</span> <span class="ow">in</span> <span class="n">t_lists</span><span class="p">[</span><span class="s">'lists'</span><span class="p">]:</span>
+        <span class="n">list_title</span> <span class="o">=</span> <span class="n">t_list</span><span class="p">[</span><span class="s">'name'</span><span class="p">]</span>
+        <span class="n">list_html_url</span> <span class="o">=</span> <span class="n">TWITTER_LIST_HTML_URL</span> <span class="o">%</span> <span class="p">{</span><span class="s">'username'</span><span class="p">:</span> <span class="n">username</span><span class="p">,</span> <span class="s">'list'</span><span class="p">:</span> <span class="n">t_list</span><span class="p">[</span><span class="s">'slug'</span><span class="p">]}</span>
+        <span class="n">list_xml_url</span> <span class="o">=</span> <span class="n">TWITTER_LIST_FEED_URL</span> <span class="o">%</span> <span class="p">{</span><span class="s">'username'</span><span class="p">:</span> <span class="n">username</span><span class="p">,</span> <span class="s">'list'</span><span class="p">:</span> <span class="n">t_list</span><span class="p">[</span><span class="s">'slug'</span><span class="p">]}</span>
+        <span class="k">print</span> <span class="n">OPML_OUTLINE_FEED</span> <span class="o">%</span> <span class="p">{</span><span class="s">'title'</span><span class="p">:</span> <span class="n">list_title</span><span class="p">,</span> <span class="s">'html_url'</span><span class="p">:</span> <span class="n">list_html_url</span><span class="p">,</span> <span class="s">'xml_url'</span><span class="p">:</span> <span class="n">list_xml_url</span><span class="p">}</span>
+
+    <span class="k">print</span> <span class="n">OPML_END</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+    <span class="n">username</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="n">main</span><span class="p">(</span><span class="n">username</span><span class="p">)</span>
+</pre></div>
+<p>Download: <a href="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-06-28-get-an-opml-file-of-all-your-public-twitter-lists/twitter_list_to_opml.py.gz">twitter_list_to_opml.py.gz</a></p>
+	</section>
+</article>
+
+<hr>
+
+<article id="blog_post_22" itemscope itemtype="http://schema.org/BlogPosting">
+	<header>
+		<h3>
+			<a href="../../2010/may/13/intequaltest-django-quiz/index.html" itemprop="url">
+				<span itemprop="name">
+					What is the Django Template Tag intequaltest and an update on Django&nbsp;Quiz?
+				</span>
+			</a>
+			<br>
+			<small>
+				5 years, 9 months ago in <a href="../django/index.html" rel="tag">Django</a>, <a href="../django-quiz/index.html" rel="tag">Django Quiz</a>, <a href="index.html" rel="tag">Python</a>,  and <a href="../project/index.html" rel="tag">Project</a>.
+			</small>
+		</h3>
+	</header>
+
+	<section itemprop="articleBody">
+		<p><a href="http://gravitymad.com/">Travis Millward</a> <a href="http://mylesbraithwaite.com/projects/django-quiz/#c195">commented</a> on my <a href="http://mylesbraithwaite.com/projects/django-quiz">Django Quiz</a> project&nbsp;today:</p>
+<blockquote>
+<p>Hey Myles, I believe I&#8217;m going to checkout your django quiz. Can you explain what&nbsp;the</p>
+<p>{% if score.corrent_anwsers|intequaltest:question %}
+This wont work
+{% endif %}
+is doing? It looks really&nbsp;good!</p>
+</blockquote>
+<p>First I just like to say I love talking to people so if you ever have a question for me about anything (literally) don&#8217;t hesitate emailing me (<a href="mailto:me@mylesbraithwaite.com">me@mylesbraithwaite.com</a>) or chatting with me (<span class="caps">XMPP</span>/GTalk <a href="mailto:me@mylesbraithwaite.com">me@mylesbraithwaite.com</a>).</p>
+<p %="" endhighlight="">{% highlight python %}
+def intequaltest(value, arg):
+    return (value ==&nbsp;arg)</p>
+<p>Okay so <code>intequaltest</code> is got to be the studied template tag in the world. It&#8217;s sole purpose is to see if two things (i.e. a <code>list</code>, <code>str</code>, <code>dict</code>, etc.) are the same and if they are return <code>True</code> or <code>False</code>. In this case see if the correct answer is equal to the answer they gave. I will go into the history a little later in this post but essentially this application use to work a lot differently and the only reason this template tag is in here is because I have an issue with copying and&nbsp;pasting.</p>
+<p>When I first started developing the Django Quiz application in 2008 it was for a client. They wanted to quiz their sales consultants on very complex financial process. The consultants could take each quiz as many times as they want, but their &#8220;score&#8221; wouldn&#8217;t be submitted to their manager until they got&nbsp;prefix.</p>
+<p>I spent about a two days in July (10th, and 11th) developing this application for the client. In the middle of my second day the client came to me and said they found a better solution, a pice of paper and a&nbsp;pencil.</p>
+<p>I have been asked about this application five or six times in the last month, so I guess it is about time I write my formal apology. This application doesn&#8217;t work. I tried to start up again on April 28, but my heart isn&#8217;t really there anymore (my heart was not really there the first time but I was getting&nbsp;paid).</p>
+<p>So will this application ever be completed? Maybe, if one day I wake up and get really excited about coding it again or a client comes along and ask me to code them a quiz&nbsp;application.</p>
+	</section>
+</article>
+
+<hr>
+
+<article id="blog_post_21" itemscope itemtype="http://schema.org/BlogPosting">
+	<header>
+		<h3>
+			<a href="../../2010/mar/23/episteme/index.html" itemprop="url">
+				<span itemprop="name">
+					Episteme
+				</span>
+			</a>
+			<br>
+			<small>
+				5 years, 11 months ago in <a href="../episteme/index.html" rel="tag">Episteme</a>, <a href="../hatta/index.html" rel="tag">Hatta</a>, <a href="index.html" rel="tag">Python</a>,  and <a href="../wiki/index.html" rel="tag">Wiki</a>.
+			</small>
+		</h3>
+	</header>
+
+	<section itemprop="articleBody">
+		<p>Back in February I tweeted &#8220;Starting work on #Episteme today.&#8221;<a href="http://twitter.com/mylesb/status/8635677939" title="Tweet on 4th Feb 2010 at 10:17 AM">#</a>. A few hours latter I got the following query in an&nbsp;email:</p>
+<blockquote>
+<p>From: Ivan Avery Frey<br>
+To: Myles Braithwaite<br>
+Date: Thu, Feb 4, 2010 at 3:24 <span class="caps">PM</span><br>
+Subject: What&#8217;s Episteme???</br></br></br></p>
+<p>Self-explanatory.</p>
+</blockquote>
+<p><strong>Episteme</strong> is a wiki engine (more of a wiki library) I am currently working on (I have actually been working on it for the last two years). It was originally a fork of <a href="http://code.google.com/p/yaki/">Yaki</a> (which powers <a href="http://the.taoofmac.com/">The Tao of Mac</a>), then was powered by <a href="http://couchdb.apache.org/">CouchDB</a>, and now is a fork of <a href="http://hatta.sheep.art.pl/">Hatta</a> (not so much as a fork because I am still going to be using Hatta&#8217;s <code>WikiStorage</code> module).</p>
+<p>So why am I working on&nbsp;yet-another-wiki-engine?</p>
+<ul>
+<li>I like flat files (easy to backup using&nbsp;rsync).</li>
+<li>I think that <a href="http://en.wikipedia.org/wiki/Relational_database_management_system">Relation databases</a> (like MySQL and PostgreSQL) were not design for wiki&nbsp;documents.</li>
+<li>I like storing the documents in a Revision Control System so I can edit them in a text&nbsp;editor.</li>
+<li>I like being able to&nbsp;search.</li>
+<li>I don&#8217;t ware the same cloths every day why should I have to use the same markup&nbsp;language.</li>
+</ul>
+<p>This is an example of a wiki&nbsp;document:</p>
+<div class="codehilite"><pre><span class="n">Title</span><span class="o">:</span> <span class="n">Python</span>
+<span class="n">Tags</span><span class="o">:</span> <span class="n">python</span><span class="o">,</span> <span class="n">programming</span>
+<span class="n">Content</span><span class="o">-</span><span class="n">Type</span><span class="o">:</span> <span class="n">text</span><span class="o">/</span><span class="n">x</span><span class="o">-</span><span class="n">wiki</span>
+
+<span class="o">**</span><span class="n">Python</span><span class="o">**</span> <span class="k">is</span> <span class="n">a</span> <span class="kd">dynamic</span> <span class="n">programming</span> <span class="n">language</span><span class="o">.</span>
+
+<span class="o">==</span> <span class="n">Resources</span>
+
+<span class="o">*</span> <span class="o">[[</span><span class="n">http</span><span class="o">://</span><span class="n">www</span><span class="o">.</span><span class="na">enricozini</span><span class="o">.</span><span class="na">org</span><span class="sr">/2009/debian/using-python-datetime/</span><span class="o">|</span><span class="n">Tips</span> <span class="n">on</span> <span class="n">using</span> <span class="n">python</span><span class="err">'</span><span class="n">s</span> <span class="n">datetime</span> <span class="n">module</span><span class="o">]]</span>
+<span class="o">*</span> <span class="o">[[</span><span class="n">http</span><span class="o">://</span><span class="n">diveintopython</span><span class="o">.</span><span class="na">org</span><span class="o">/|</span><span class="n">Dive</span> <span class="n">into</span> <span class="n">Python</span><span class="o">]]</span>
+</pre></div>
+<p>I am using <a href="http://www.w3.org/Protocols/rfc822/"><span class="caps">RFC822</span></a> (similar to an email) for meta information (title, tags, markup, date, author,&nbsp;etc).</p>
+<p>Episteme will always be a work in progress and many never be&nbsp;released.</p>
+	</section>
+</article>
+
+<hr>
+
+<article id="blog_post_19" itemscope itemtype="http://schema.org/BlogPosting">
+	<header>
+		<h3>
+			<a href="../../2010/jan/20/pygta/index.html" itemprop="url">
+				<span itemprop="name">
+					Tornado at&nbsp;PyGTA
+				</span>
+			</a>
+			<br>
+			<small>
+				6 years, 1 month ago in <a href="../tornado/index.html" rel="tag">Tornado</a>, <a href="../toronto/index.html" rel="tag">Toronto</a>, <a href="index.html" rel="tag">Python</a>,  and <a href="../pygta/index.html" rel="tag">PyGTA</a>.
+			</small>
+		</h3>
+	</header>
+
+	<section itemprop="articleBody">
+		<p>Last night at <a href="http://pygta.org/2010-01/tornado/" title="PyGTA - Tornado Hacking">PyGTA</a>, <a href="http://blog.vrplumber.com/index.php?/archives/2418-Tornado-PyGTA-this-month,-PyCon-Dress-Rehearsal-next.html" title="Tornado @ PyGTA this month, PyCon Dress Rehearsal next">Mike</a> gave a short talk/demo about his
+findings using <a href="http://tornadoweb.org">Tornado</a> and <a href="http://couchdb.apache.org">CouchDB</a> to write a
+real time chat and voting application for <a href="http://us.pycon.org/2010/conference/talks/">his PyCon talk</a>.</p>
+<p>Tornado is a lightweight non-blocking web server created by
+<a href="http://bret.appspot.com/entry/tornado-web-server" title="The technology behind Tornado, FriendFeed's web server">FriendFeed</a> and Open Source by <a href="http://developers.facebook.com/news.php?blog=1&amp;story=301" title="Tornado: Facebook's Real-Time Web Framework for Python">Facebook</a>. The <span class="caps">API</span> is similar
+to <a href="http://webpy.org/">web.py</a> and App Engine&#8217;s <a href="http://developers.facebook.com/news.php?blog=1&amp;story=301" title="Tornado: Facebook's Real-Time Web Framework for Python">webapp framework</a>. Mike&#8217;s ending comments was that Tornado can out perform Twisted. But
+he found he had to write a lot of code to do things that were built
+into Twisted (or any other modern web framework)&nbsp;already.</p>
+<p>His thoughts on&nbsp;CouchDB:</p>
+<blockquote>
+<p>I&#8217;m really beginning to regret the choice of CouchDB for the
+back-end.  It&#8217;s working perfectly well, but I have literally dozens
+of pieces of code hanging around for doing <span class="caps">SQL</span>-based paging&#8230; none
+of which are applicable to&nbsp;CouchDB.</p>
+</blockquote>
+<p><em>Referenced: <a href="http://blog.vrplumber.com/index.php?/archives/2419-Things-Id-like-to-play-with-given-enough-time.html" title="Things I'd like to play with (given enough time)">Things I&#8217;d like to play with (given enough&nbsp;time)</a></em></p>
+<p>This website (and a few other sites I manage) will be moving from
+<a href="http://httpd.apache.org" title="Apache HTTPD">Apache 2</a> and <a href="http://code.google.com/p/modwsgi/" title="mod_wsgi"><span class="caps">WSGI</span></a> to Tornado and <a href="http://nginx.net">Nginx</a> <a href="http://twitter.com/mylesb/status/7772733185" title="Working on a new backend for my website (Tornado, Supervisord, &amp; Nginx). My current setup is Apache2 and WSGI. -- on Twitter at 14th Jan 6:56 PM">#</a>. It
+will still be built on top of <a href="http://djangoproject.org">Django</a> thought so most of the
+issues Mike was talking about wouldn&#8217;t apply to&nbsp;me.</p>
+<p><strong>Other people who wrote about this event</strong>:</p>
+<ul>
+<li><a href="http://tomlowshang.blogspot.com">Tom Low-Shang</a> &#8212; <a href="http://tomlowshang.blogspot.com/2010/01/tornado.html">Tornado</a></li>
+</ul>
+	</section>
+</article>
+
+
+	</div>
+	
+	
+
+			
+		</div>
+
+		<div class="col-sm-4" id="sidebar">
+			<aside>
+				<h3>Recent Blog Posts</h3>
+				
+				<div class="list-group">
+					
+					<a href="../../2015/mar/26/doing-talk-lesscss-aprils-gtalug-meeting/index.html" class="list-group-item">Doing a Talk on LessCSS at April&#8217;s <span class="caps">GTALUG</span>&nbsp;Meeting</a>
+					
+					<a href="../../2015/feb/24/jrnl-gtalug/index.html" class="list-group-item">Doing a short talk on jrnl at the next <span class="caps">GTALUG</span>&nbsp;Meeting</a>
+					
+					<a href="../../2014/feb/21/guardians-galaxy-poster-and-videos/index.html" class="list-group-item">Guardians of the Galaxy Poster and Meet the Guardians&nbsp;Videos</a>
+					
+					<a href="../../2014/jan/30/captain-america-winter-soldier/index.html" class="list-group-item">Captain America: The Winter&nbsp;Soldier</a>
+					
+					<a href="../../2014/jan/27/star-wars-and-marvels-twitter-converstation/index.html" class="list-group-item">Star Wars and Marvel&#8217;s Twitter&nbsp;Converstation</a>
+					
+				</div>
+			</aside>
+			
+			<hr>
+			
+			<aside>
+				<h3>Categories</h3>
+				
+				<div class="list-group">
+					
+					<a href="../../category/comic-books/index.html" class="list-group-item">Comic&nbsp;Books</a>
+					
+					<a href="../../category/egocentric/index.html" class="list-group-item">Egocentric</a>
+					
+					<a href="../../category/films/index.html" class="list-group-item">Films</a>
+					
+					<a href="http://mylesbraithwaite.com/blog/category/meta/" class="list-group-item">Meta</a>
+					
+					<a href="../../category/music/index.html" class="list-group-item">Music</a>
+					
+					<a href="../../category/programming/index.html" class="list-group-item">Programming</a>
+					
+					<a href="../../category/tech/index.html" class="list-group-item">Technology</a>
+					
+				</div>
+			</aside>
+		</div>
+	</div> <!-- .row -->
+
+		</div> <!-- .container -->
+		
+		<script type="text/javascript" src="http://static.mylesbraithwaite.com/CACHE/js/b308e2149f6b.js"></script>
+		
+		<script type="text/javascript" src="http://static.mylesbraithwaite.com/browserid/browserid.js"></script>
+<script type="text/javascript" src="https://login.persona.org/include.js"></script>
+		
+		
+	</body>
+</html>
