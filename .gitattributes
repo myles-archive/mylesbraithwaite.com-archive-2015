@@ -8,3 +8,5 @@
 *.gz filter=lfs diff=lfs merge=lfs -text
 *.lua filter=lfs diff=lfs merge=lfs -text
 *.pxm filter=lfs diff=lfs merge=lfs -text
+*.eot filter=lfs diff=lfs merge=lfs -text
+*.woff filter=lfs diff=lfs merge=lfs -text
