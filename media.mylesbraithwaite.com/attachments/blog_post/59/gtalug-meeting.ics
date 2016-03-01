@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+METHOD:PUBLISH
+PRODID:-//PYVOBJECT//NONSGML Version 1//EN
+BEGIN:VTIMEZONE
+TZID:EST
+BEGIN:STANDARD
+DTSTART:20001029T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10;UNTIL=20061029T060000Z
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000402T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=4;UNTIL=20060402T070000Z
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:meeting-2015-04@GTALUG.org
+DTSTART:20150414T193000
+DTEND:20150414T213000
+DESCRIPTION:### LessCSS\n\nLessCSS extends the CSS language to make it act
+ ually useable by adding\nfeatures like variables\, mixins\, functions\, an
+ d a bunch of other techniques\nthat allow you to make your stylesheets mor
+ e maintainable\, themeable\, and\nextendible.\n\n### Round Table Q&A Sessi
+ on\n\nA Round Table Q&A Session is where we take questions from the audien
+ ce\, and\nthe audience discusses and attempts to answer those questions fr
+ om their own\nknowledge. It's a great way to meet fellow members of our co
+ mmunity and\ndiscover the skill sets we each bring to the table.\n\n
+LOCATION:George Vari Engineering and Computing Centre\, Room 203
+STATUS:CONFIRMED
+SUMMARY:GTALUG Meeting: LessCSS and a Round Table Q&A Session
+URL:http://gtalug.org/meeting/2015-04/
+END:VEVENT
+END:VCALENDAR
