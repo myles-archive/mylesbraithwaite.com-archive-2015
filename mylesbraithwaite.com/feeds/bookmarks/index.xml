@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Myles Braithwaite: bookmarks.</title><link>http://mylesbraithwaite.com/bookmarks/</link><description>Hoping for the Best, Imagining the Worst.</description><atom:link href="http://mylesbraithwaite.com/feeds/bookmarks/" rel="self"></atom:link><language>en-ca</language><lastBuildDate>Tue, 02 Sep 2014 14:55:47 -0400</lastBuildDate><item><title>Apple Denies iCloud Breach</title><link>http://www.apple.com/pr/library/2014/09/02Apple-Media-Advisory.html</link><description>&lt;p&gt;Apple has has released a statment saying that the mass theft of photos did not 
+occur because of a breach of Apple's iCloud service. They do say that certain 
+celebrities were the subject of targeted hacking attempts.&lt;/p&gt;
+&lt;p&gt;(via &lt;a href="http://www.theverge.com/2014/9/2/6098107/apple-denies-icloud-breach-celebrity-nude-photo-hack" title="Apple denies iCloud breach in celebrity nude photo hack"&gt;The Verge&lt;/a&gt;'s Jacob Kastrenakes).&lt;/p&gt;&lt;p&gt;&lt;a href="http://mylesbraithwaite.com/bookmarks/ad174278-81d8-3250-9fe9-50a1dbff79df/"&gt;#&lt;/a&gt;&lt;/p&gt;</description><author>me@mylesbraithwaite.com (Myles Braithwaite)</author><pubDate>Tue, 02 Sep 2014 14:55:47 -0400</pubDate><guid>http://mylesbraithwaite.com/bookmarks/ad174278-81d8-3250-9fe9-50a1dbff79df/</guid><category>Apple</category><category>iPhone</category><category>iCloud</category></item><item><title>Apple Is Totally Screwed</title><link>http://uncrunched.com/2014/09/02/apple-is-screwed-frappening/</link><description>&lt;blockquote&gt;
+&lt;p&gt;I’m talking about the fact that people won’t feel the same way about their
+phones after this. Your phone is no longer a part of you. It’s a weapon,
+pointed at you.&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;cite&gt;Michael Arrington&lt;/cite&gt;.&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;&lt;a href="http://mylesbraithwaite.com/bookmarks/a427d7ac-0b92-3d0c-9377-2ea7792cc3ba/"&gt;#&lt;/a&gt;&lt;/p&gt;</description><author>me@mylesbraithwaite.com (Myles Braithwaite)</author><pubDate>Tue, 02 Sep 2014 14:52:22 -0400</pubDate><guid>http://mylesbraithwaite.com/bookmarks/a427d7ac-0b92-3d0c-9377-2ea7792cc3ba/</guid><category>Apple</category><category>Mobile</category><category>Phones</category></item><item><title>The Nine Types of Minecraft Players</title><link>http://www.dorkly.com/post/67404/9-types-of-minecraft-players</link><description>&lt;p&gt;I'm a mix between the &lt;em&gt;Engineer&lt;/em&gt; and &lt;em&gt;World Builder&lt;/em&gt;.&lt;/p&gt;
+&lt;div class="row"&gt;
+&lt;div class="col-xs-12 col-md-6"&gt;
+&lt;a class="thumbnail" href="//media.mylesbraithwaite.com/attachments/bookmarks_bookmark/317/the-engineer_2.jpg" title="The Engineer"&gt;
+&lt;img alt="The Engineer" src="http://media.mylesbraithwaite.com/attachments/bookmarks_bookmark/317/the-engineer_2.jpg"&gt;
+&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="col-xs-12 col-md-6"&gt;
+&lt;a class="thumbnail" href="//media.mylesbraithwaite.com/attachments/bookmarks_bookmark/317/the-world-builder_2.jpg" title="The World Builder"&gt;
+&lt;img alt="The World Builder" src="http://media.mylesbraithwaite.com/attachments/bookmarks_bookmark/317/the-world-builder_2.jpg"&gt;
+&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;a href="http://mylesbraithwaite.com/bookmarks/5aafc5b0-5a89-3f0e-befa-a9faa36d8f10/"&gt;#&lt;/a&gt;&lt;/p&gt;</description><author>me@mylesbraithwaite.com (Myles Braithwaite)</author><pubDate>Tue, 02 Sep 2014 10:01:24 -0400</pubDate><guid>http://mylesbraithwaite.com/bookmarks/5aafc5b0-5a89-3f0e-befa-a9faa36d8f10/</guid><enclosure url="http://media.mylesbraithwaite.com/attachments/bookmarks_bookmark/317/the-engineer_2.jpg" length="None" type="image/jpeg"></enclosure><category>Minecraft</category></item><item><title>RTFM 0day in iOS apps: Google+ , Gmail, FB Messenger, etc.</title><link>http://algorithm.dk/posts/rtfm-0day-in-ios-apps-g-gmail-fb-messenger-etc</link><description>&lt;p&gt;Using the &lt;code&gt;tel&lt;/code&gt; URI scheme you can launch a telephone call in a native iOS application without having to prompt the user. This functionality is actually written about in Apple's developer documentation says:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When a user opens a URL with the tel scheme in a native app, iOS does not display an alert and initiates dialing without further prompting the user.&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;a href="https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/PhoneLinks/PhoneLinks.html"&gt;Phone Links&lt;/a&gt; from &lt;cite&gt;Apple URL Scheme Reference&lt;/cite&gt;.&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;&lt;a href="http://mylesbraithwaite.com/bookmarks/7e96d9ea-159d-37cd-a894-ad9745ad772e/"&gt;#&lt;/a&gt;&lt;/p&gt;</description><author>me@mylesbraithwaite.com (Myles Braithwaite)</author><pubDate>Thu, 21 Aug 2014 16:19:33 -0400</pubDate><guid>http://mylesbraithwaite.com/bookmarks/7e96d9ea-159d-37cd-a894-ad9745ad772e/</guid><category>Apple</category><category>iOS</category></item><item><title>Monkey’s selfie at centre of copyright brouhaha</title><link>http://arstechnica.com/tech-policy/2014/08/monkeys-selfie-at-center-of-copyright-brouhaha/</link><description>&lt;div class="row"&gt;
+&lt;div class="col-xs-12 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4"&gt;
+&lt;a class="thumbnail" href="//media.mylesbraithwaite.com/attachments/bookmarks_bookmark/315/image.jpg"&gt;
+&lt;img src="http://media.mylesbraithwaite.com/attachments/bookmarks_bookmark/315/image.jpg"&gt;
+&lt;div class="caption"&gt;
+&lt;p&gt;&lt;small&gt;This file is in the public domain, because as the work of a non-human animal, it has no human author in whom copyright is vested.&lt;/small&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Photographer's claim is that the photo isn't in the public domain because the he did all the setup and all the monkey did was take the picture.&lt;/p&gt;
+&lt;p&gt;Wikimedia's claim is that for the photographer to claim copyright, they "would have had to make substantial contributions to the final image, and even then, they'd only have copyright for those alterations, not the underlying image". And because animals aren't people and don't have civil rights then the images fall under the public domain.&lt;/p&gt;
+&lt;p&gt;TODO insert pun about monkey business and copyright.&lt;/p&gt;
+&lt;h3 id="update-21-august-2014-at-310pm"&gt;Update &lt;em&gt;(21 August, 2014 at 3:10pm)&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;The U.S. Copyright Office says that the photograph is unprotected by intellectual property.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Office will not register works produced by nature, animals, or plants. Likewise, the Office cannot register a work purportedly created by divine or supernatural beings, although the Office may register a work where the application or the deposit copy state that the work was inspired by a divine spirit&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;cite&gt;Compendium of US Copyright Office Practices, Third Edition&lt;cite&gt; (&lt;a href="//media.mylesbraithwaite.com/attachments/bookmarks_bookmark/315/compendium-full.pdf"&gt;PDF Copy of the Report&lt;/a&gt;).&lt;/cite&gt;&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;&lt;a href="http://mylesbraithwaite.com/bookmarks/1e94c57c-ba6e-3e2c-b903-8b624f5e8ad8/"&gt;#&lt;/a&gt;&lt;/p&gt;</description><author>me@mylesbraithwaite.com (Myles Braithwaite)</author><pubDate>Wed, 06 Aug 2014 17:52:22 -0400</pubDate><guid>http://mylesbraithwaite.com/bookmarks/1e94c57c-ba6e-3e2c-b903-8b624f5e8ad8/</guid><enclosure url="http://media.mylesbraithwaite.com/attachments/bookmarks_bookmark/315/image.jpg" length="None" type="image/jpeg"></enclosure><category>Copyright</category><category>Public Domain</category><category>Photography</category></item><item><title>talon</title><link>https://github.com/mailgun/talon</link><description>&lt;p&gt;A Python library (from &lt;a href="http://mailgun.com"&gt;Mailgun&lt;/a&gt;) to extract message
+quotations and signatures.&lt;/p&gt;
+&lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;talon.signature.bruteforce&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;extract_signature&lt;/span&gt;
+&lt;span class="go"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;
+&lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="n"&gt;message&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;"""Awesome.&lt;/span&gt;
+&lt;span class="gp"&gt;... &lt;/span&gt;&lt;span class="s"&gt;&lt;/span&gt;
+&lt;span class="gp"&gt;... &lt;/span&gt;&lt;span class="s"&gt;---&lt;/span&gt;
+&lt;span class="gp"&gt;... &lt;/span&gt;&lt;span class="s"&gt;Myles Braithwaite"""&lt;/span&gt;
+&lt;span class="go"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;
+&lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;signature&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;extract_signature&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;text&lt;/span&gt;
+&lt;span class="go"&gt;Awesome.&lt;/span&gt;
+&lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;signature&lt;/span&gt;
+&lt;span class="go"&gt;---&lt;/span&gt;
+&lt;span class="go"&gt;Myles Braithwaite&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href="http://mylesbraithwaite.com/bookmarks/e88ea0e4-47ee-3582-988f-db1d57a78829/"&gt;#&lt;/a&gt;&lt;/p&gt;</description><author>me@mylesbraithwaite.com (Myles Braithwaite)</author><pubDate>Fri, 25 Jul 2014 11:14:34 -0400</pubDate><guid>http://mylesbraithwaite.com/bookmarks/e88ea0e4-47ee-3582-988f-db1d57a78829/</guid><category>Python</category><category>Email</category></item><item><title>cli-aoke</title><link>https://github.com/jfrazelle/cli-aoke</link><description>&lt;p&gt;A command line &lt;strong&gt;Karaoke&lt;/strong&gt; application written in Python by &lt;a href="http://frazelledazzell.com/"&gt;Jessica Frazelle&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;
+$ cli-aoke sing 2Pac_-_California.mid
+&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://mylesbraithwaite.com/bookmarks/d0dc4876-3b74-31ff-a5a4-3cd22d3b4c59/"&gt;#&lt;/a&gt;&lt;/p&gt;</description><author>me@mylesbraithwaite.com (Myles Braithwaite)</author><pubDate>Fri, 11 Jul 2014 10:05:16 -0400</pubDate><guid>http://mylesbraithwaite.com/bookmarks/d0dc4876-3b74-31ff-a5a4-3cd22d3b4c59/</guid><category>Python</category><category>CLI</category><category>Karaoke</category></item><item><title>The Benefits of Consent</title><link>http://www.michaelgeist.ca/2014/07/benefits-consent/</link><description>&lt;blockquote&gt;
+&lt;p&gt;Yet Faber's initial experience is precisely what one might expect: as companies shift to opt-in lists with customers who explicitly consent to receive messages, they are more likely to open the emails and to click on the links. I asked Faber about the experience to date and he indicated that the company’s list has unsurprisingly slimmed down, but that it is much more qualified, will grow back over time, and offers a more engaged audience, which he prefers.&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;The Benefits of Consent by &lt;cite&gt;Michael Geist&lt;/cite&gt;.&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;&lt;a href="http://mylesbraithwaite.com/bookmarks/75cb498b-5d7e-3a30-bbb5-25ed9866a45a/"&gt;#&lt;/a&gt;&lt;/p&gt;</description><author>me@mylesbraithwaite.com (Myles Braithwaite)</author><pubDate>Thu, 03 Jul 2014 10:10:52 -0400</pubDate><guid>http://mylesbraithwaite.com/bookmarks/75cb498b-5d7e-3a30-bbb5-25ed9866a45a/</guid><category>CASL</category></item><item><title>Gmail API</title><link>http://online.wsj.com/news/article_email/google-opens-gmail-making-it-more-of-a-platform-for-developers-1403719202-lMyQjAxMTA0MDIwNTEyNDUyWj</link><description>&lt;p&gt;Interesting move by Google.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The idea of plugging into email contents is not new, and many outside applications already leverage mail if users allow it. But Google is creating a new application programming interface, or API, to make it easier for outside developers to plug in. It will replace IMAP, a common but complex way for applications to communicate with most email services, limiting the number of apps that can work with Gmail.
+&lt;small&gt;&lt;strong&gt;Google Opens Gmail, Making It More of a Platform for Developers&lt;/strong&gt; by &lt;cite&gt;Alistair Barr&lt;/cite&gt; and &lt;cite&gt;Rolfe Winkler&lt;/cite&gt; for &lt;em&gt;The Wall Street Journal&lt;/em&gt;.&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;&lt;a href="http://mylesbraithwaite.com/bookmarks/5db270a1-e837-3660-bffd-8fb72b99f2db/"&gt;#&lt;/a&gt;&lt;/p&gt;</description><author>me@mylesbraithwaite.com (Myles Braithwaite)</author><pubDate>Wed, 25 Jun 2014 15:09:30 -0400</pubDate><guid>http://mylesbraithwaite.com/bookmarks/5db270a1-e837-3660-bffd-8fb72b99f2db/</guid><category>API</category><category>Gmail</category><category>Google</category><category>IMAP</category></item><item><title>TrueCrypt Developer Says No to License Change for Forking</title><link>http://pastebin.com/RS0f8gwn</link><description>&lt;blockquote&gt;
+&lt;p&gt;I am sorry, but I think what you're asking for here is impossible. I don't feel that forking truecrypt would be a good idea, a complete rewrite was something we wanted to do for a while. I believe that starting from scratch wouldn't require much more work than actually learning and understanding all of truecrypts current codebase.&lt;/p&gt;
+&lt;p&gt;I have no problem with the source code being used as reference.&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;cite&gt;Anonymous Source&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;(via &lt;a href="https://news.ycombinator.com/item?id=7909636" title="TrueCrypt developer says no to license change for forking"&gt;Hacker News&lt;/a&gt;)&lt;/p&gt;&lt;p&gt;&lt;a href="http://mylesbraithwaite.com/bookmarks/075317cb-1165-3f54-8395-912f66faf967/"&gt;#&lt;/a&gt;&lt;/p&gt;</description><author>me@mylesbraithwaite.com (Myles Braithwaite)</author><pubDate>Wed, 18 Jun 2014 09:54:59 -0400</pubDate><guid>http://mylesbraithwaite.com/bookmarks/075317cb-1165-3f54-8395-912f66faf967/</guid><category>TrueCrypt</category></item></channel></rss>
