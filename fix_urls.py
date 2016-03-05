@@ -17,6 +17,11 @@ for html_file in html_files:
         contents = contents.replace('//media.mylesbraithwaite.com/', '/media/')
         contents = contents.replace('//static.mylesbraithwaite.com/', '/static/')
 
+        contents = contents.replace('http://mylesbraithwaite.com/', '/')
+        contents = contents.replace('https://mylesbraithwaite.com/', '/')
+
+        contents = contents.replace('<link rel="x-tor-hidden-service" href="/gvvsa367g2zkzjj3.onion">', '')
+
         contents = contents.replace('http:/media/', '/media/')
         contents = contents.replace('http:/static/', '/static/')
 
