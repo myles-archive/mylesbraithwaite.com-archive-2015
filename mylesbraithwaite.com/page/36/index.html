@@ -17,7 +17,7 @@
 		
 		
 		
-		<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Myles Braithwaite"><meta name="twitter:description" content="Hoping for The Best, Imagining the Worst."><meta name="twitter:site" content="@MylesWeb"><meta name="twitter:creator" content="@MylesB"><meta name="twitter:image" content="http://static.mylesbraithwaite.com/img/apple-touch-icon-144x144-precomposed.png"><meta property="og:image" content="http://static.mylesbraithwaite.com/img/apple-touch-icon-144x144-precomposed.png"><meta property="og:title" content="Myles Braithwaite"><meta property="og:type" content="website"><meta property="og:url" content="http://mylesbraithwaite.com">
+		<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Myles Braithwaite"><meta name="twitter:description" content="Hoping for The Best, Imagining the Worst."><meta name="twitter:site" content="@MylesWeb"><meta name="twitter:creator" content="@MylesB"><meta name="twitter:image" content="/static/img/apple-touch-icon-144x144-precomposed.png"><meta property="og:image" content="/static/img/apple-touch-icon-144x144-precomposed.png"><meta property="og:title" content="Myles Braithwaite"><meta property="og:type" content="website"><meta property="og:url" content="http://mylesbraithwaite.com">
 		
     <link rel="openid2.provider"
     href="https://openid.stackexchange.com/openid/provider">
@@ -26,20 +26,20 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="shortcut icon" href="http://static.mylesbraithwaite.com/img/favicon.ico">
+		<link rel="shortcut icon" href="/static/img/favicon.ico">
 
-		<link rel="apple-touch-icon-precomposed" href="http://static.mylesbraithwaite.com/img/apple-touch-icon-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="/static/img/apple-touch-icon-precomposed.png">
 		<meta name="apple-mobile-web-app-title" content="Myles B.">
 		
 		<meta name="application-name" content="Myles Braithwaite">
 		<meta name="msapplication-TileColor" content="#3c3c3c">
-		<meta name="msapplication-TileImage" content="//static.mylesbraithwaite.com/img/apple-touch-icon-144x144-precomposed.png">
+		<meta name="msapplication-TileImage" content="/static/img/apple-touch-icon-144x144-precomposed.png">
 
 		
-		<link rel="stylesheet" href="http://static.mylesbraithwaite.com/CACHE/css/f4e2763463a4.css" type="text/css" />
+		<link rel="stylesheet" href="/static/CACHE/css/f4e2763463a4.css" type="text/css" />
 		
 		
-		<link rel="stylesheet" href="http://static.mylesbraithwaite.com/browserid/persona-buttons.css" />
+		<link rel="stylesheet" href="/static/browserid/persona-buttons.css" />
 		
 		
 		<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-1642439-2']);_gaq.push(['_setDomainName','mylesbraithwaite.com']);_gaq.push(['_setAllowLinker',true]);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
@@ -354,7 +354,7 @@ issues Mike was talking about wouldn&#8217;t apply to&nbsp;me.</p>
 		<p>I recently installed <a href="http://projects.tynsoe.org/en/geektool/">Geektool</a> on my MacBook Pro. I used so many sources to set it up that I thought it would be a good idea that I write a blog post about some of the more complicated&nbsp;configurations.</p>
 <p><a href="http://www.flickr.com/photos/mylesbraithwaite/4237928127/"><img alt="My Geektool Setup" src="http://farm5.static.flickr.com/4051/4237928127_d2e13648c1_m.jpg"/></a></p>
 <h3 id="sunrise-sunset">Sunrise <span class="amp">&amp;</span>&nbsp;Sunset</h3>
-<p><img alt="Sunrise &amp; Sunset" src="http://media.mylesbraithwaite.com/cache/b9/db/b9db35f6ca914270a724d79e02d035f6.jpg"/></p>
+<p><img alt="Sunrise &amp; Sunset" src="/media/cache/b9/db/b9db35f6ca914270a724d79e02d035f6.jpg"/></p>
 <p>I am getting the sunrise <span class="amp">&amp;</span> sunset data from <a href="http://wund.com/">weather underground</a> <a href="http://m.wund.com">mobile website</a>.</p>
 <h4 id="sunrise">Sunrise</h4>
 <div class="codehilite"><pre><span class="n">curl</span> <span class="o">--</span><span class="n">silent</span> <span class="n">http</span><span class="o">:</span><span class="c1">//m.wund.com/global/stations/71265.html | grep 'Sunrise' | sed -e :a -e 's/]*&amp;gt;//g;/&amp;lt;/N;//ba' | sed -e 's/Sunrise/Sunrise: /g' | sed -e 's/<span class="caps">EST</span>//g'</span>
@@ -363,7 +363,7 @@ issues Mike was talking about wouldn&#8217;t apply to&nbsp;me.</p>
 <div class="codehilite"><pre><span class="n">curl</span> <span class="o">--</span><span class="n">silent</span> <span class="n">http</span><span class="o">:</span><span class="c1">//m.wund.com/global/stations/71265.html | grep 'Sunset' | sed -e :a -e 's/]*&amp;gt;//g;/&amp;lt;/N;//ba' | sed -e 's/Sunset/Sunset: /g' | sed -e 's/<span class="caps">EST</span>//g'</span>
 </pre></div>
 <h3 id="ip-addresses"><span class="caps">IP</span>&nbsp;Addresses</h3>
-<p><img alt="IP Addresses" src="http://media.mylesbraithwaite.com/cache/7b/f6/7bf64863ba20002bf2beb21df8694a3a.jpg"/></p>
+<p><img alt="IP Addresses" src="/media/cache/7b/f6/7bf64863ba20002bf2beb21df8694a3a.jpg"/></p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -418,7 +418,7 @@ issues Mike was talking about wouldn&#8217;t apply to&nbsp;me.</p>
 </pre></div>
 </td></tr></table>
 <h3 id="weather-image">Weather&nbsp;Image</h3>
-<p><img alt="Weather Image" src="http://media.mylesbraithwaite.com/cache/69/87/69875d95a1168f02adb90df624f29506.jpg"/></p>
+<p><img alt="Weather Image" src="/media/cache/69/87/69875d95a1168f02adb90df624f29506.jpg"/></p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -441,7 +441,7 @@ curl --silent -o /tmp/weather.html <span class="s2">"http://weather.yahoo.com/ca
 </pre></div>
 </td></tr></table>
 <h3 id="weather-forecast">Weather&nbsp;Forecast</h3>
-<p><img alt="Weather Forecast" src="http://media.mylesbraithwaite.com/cache/06/f5/06f52939951e14f16dfd2f98fa5b9327.jpg"/></p>
+<p><img alt="Weather Forecast" src="/media/cache/06/f5/06f52939951e14f16dfd2f98fa5b9327.jpg"/></p>
 <p>I am using <a href="http://ca.weather.yahoo.com/">Yahoo Weather</a> to get the weather&nbsp;image.</p>
 <div class="codehilite"><pre><span class="nb">curl</span> <span class="o">--</span><span class="nx">silent</span> <span class="s2">"http://weather.yahooapis.com/forecastrss?p=<span class="caps">CAXX0504</span>&amp;u=c"</span> <span class="o">|</span> <span class="nx">grep</span> <span class="na">-E</span> <span class="s1">'(Current Conditions:|C&lt;<span class="caps">BR</span>)'</span> <span class="o">|</span> <span class="nx">sed</span> <span class="na">-e</span> <span class="s1">'s/Current Conditions://'</span> <span class="na">-e</span> <span class="s1">'s///'</span> <span class="na">-e</span> <span class="s1">'s/&lt;b&gt;//'</span> <span class="na">-e</span> <span class="s1">'s///'</span> <span class="na">-e</span> <span class="s1">'s///'</span> <span class="na">-e</span> <span class="s1">'s///'</span> <span class="na">-e</span> <span class="s1">'s///'</span><span class="o">&lt;/</span><span class="nx">b</span><span class="o">&gt;</span>
 </pre></div>
@@ -652,7 +652,7 @@ Secure <span class="caps">ID</span>: **<em>-</em>@live.com</p>
 	</div>
 	
 	<div class="col-sm-4" id="sidebar">
-		<img src="http://static.mylesbraithwaite.com/img/avatars/hipster-square-350.png" alt="Myles Braithwaite" class="img-thumbnail">
+		<img src="/static/img/avatars/hipster-square-350.png" alt="Myles Braithwaite" class="img-thumbnail">
 
 		<aside id="about">
 			<h3>About</h3>
@@ -731,9 +731,9 @@ Secure <span class="caps">ID</span>: **<em>-</em>@live.com</p>
 			
 		</div> <!-- .container -->
 		
-		<script type="text/javascript" src="http://static.mylesbraithwaite.com/CACHE/js/b308e2149f6b.js"></script>
+		<script type="text/javascript" src="/static/CACHE/js/b308e2149f6b.js"></script>
 		
-		<script type="text/javascript" src="http://static.mylesbraithwaite.com/browserid/browserid.js"></script>
+		<script type="text/javascript" src="/static/browserid/browserid.js"></script>
 <script type="text/javascript" src="https://login.persona.org/include.js"></script>
 		
 		

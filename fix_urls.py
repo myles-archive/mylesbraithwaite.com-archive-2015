@@ -14,15 +14,13 @@ for html_file in html_files:
         contents = f.read()
 
     with open(html_file, 'w+') as f:
-        contents = f.read()
+        contents = contents.replace('//media.mylesbraithwaite.com/', '/media/')
+        contents = contents.replace('//static.mylesbraithwaite.com/', '/static/')
 
-        contentes = contents.replace('//media.mylesbraithwaite.com/', '/media/')
-        contentes = contents.replace('//static.mylesbraithwaite.com/', '/static/')
+        contents = contents.replace('http:/media/', '/media/')
+        contents = contents.replace('http:/static/', '/static/')
 
-        contentes = contents.replace('http:/media/', '/media/')
-        contentes = contents.replace('http:/static/', '/static/')
-
-        contentes = contents.replace('https:/media/', '/media/')
-        contentes = contents.replace('https:/static/', '/static/')
+        contents = contents.replace('https:/media/', '/media/')
+        contents = contents.replace('https:/static/', '/static/')
 
         f.write(contents)
