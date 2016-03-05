@@ -1,0 +1,13 @@
+body { color: black; background: transparent; }
+
+a:link, a:visited { background: transparent; font-weight: bold; text-decoration: underline; }
+
+div#container { padding-top: 10px; padding-bottom: 0; }
+
+header#top { float: none; width: auto; }
+header#top aside { display: none; }
+header#top nav { display: none; }
+
+div#main { float: none; width: auto; }
+
+footer#bottom { margin: 0 auto; clear: both; }

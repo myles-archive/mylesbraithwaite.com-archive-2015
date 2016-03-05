@@ -1,0 +1,359 @@
+/* @override http://127.0.0.1:8000/static/css/style.css */
+
+/*	Multicoloured Candy
+	http://mylesbraithwaite.com
+	by Myles Braithwaite
+	License: http://opensource.org/licenses/mit-license.php	*/
+
+/* @group Normalize */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { margin: 0; }
+body, button, input, select, textarea { font-family: sans-serif; }
+/* a { color: #00e; }
+a:visited { color: #551a8b; } */
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+blockquote { margin: 1em 40px; }
+dfn { font-style: italic; }
+mark { background: #ff0; color: #000; }
+pre, code, kbd, samp { font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 1em; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+q { quotes: none; }
+q:before, q:after { content: ''; content: none; }
+small { font-size: 75%; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; }
+img { border: 0; -ms-interpolation-mode: bicubic; }
+svg:not(:root) { overflow: hidden; }
+figure { margin: 0; }
+form { margin: 0; }
+fieldset { margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
+legend { border: 0; *margin-left: -7px; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+button, input { line-height: normal; *overflow: visible; }
+table button, table input { *overflow: auto; }
+button, html input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+textarea { overflow: auto; vertical-align: top; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* @end */
+
+/* @group Josefin Sans */
+
+/* @font-face { font-family: 'Josefin Sans'; font-style: italic; font-weight: 300; src: url('../fonts/Josefin_Sans/JosefinSans-LightItalic.ttf'); } */
+/* @font-face { font-family: 'Josefin Sans'; font-style: italic; font-weight: 100; src: url('../fonts/Josefin_Sans/JosefinSans-ThinItalic.ttf'); } */
+/* @font-face { font-family: 'Josefin Sans'; font-style: italic; font-weight: 600; src: url('../fonts/Josefin_Sans/JosefinSans-SemiBoldItalic.ttf'); } */
+@font-face { font-family: 'Josefin Sans'; font-style: normal; font-weight: 400; src: url('../fonts/Josefin_Sans/JosefinSans-Regular.ttf'); }
+@font-face { font-family: 'Josefin Sans'; font-style: normal; font-weight: 700; src: url('../fonts/Josefin_Sans/JosefinSans-Bold.ttf'); }
+@font-face { font-family: 'Josefin Sans'; font-style: italic; font-weight: 400; src: url('../fonts/Josefin_Sans/JosefinSans-Italic.ttf'); }
+/* @font-face { font-family: 'Josefin Sans'; font-style: normal; font-weight: 600; src: url('../fonts/Josefin_Sans/JosefinSans-SemiBold.ttf'); } */
+/* @font-face { font-family: 'Josefin Sans'; font-style: normal; font-weight: 300; src: url('../fonts/Josefin_Sans/JosefinSans-Light.ttf'); } */
+@font-face { font-family: 'Josefin Sans'; font-style: italic; font-weight: 700; src: url('../fonts/Josefin_Sans/JosefinSans-BoldItalic.ttf'); }
+/* @font-face { font-family: 'Josefin Sans'; font-style: normal; font-weight: 100; src: url('../fonts/Josefin_Sans/JosefinSans-Thin.ttf'); } */
+
+/* @end */
+
+/* @group Josefin Slab */
+
+/* @font-face { font-family: 'Josefin Slab'; font-style: italic; font-weight: 300; src: url('../fonts/Josefin_Slab/JosefinSlab-LightItalic.ttf'); } */
+/* @font-face { font-family: 'Josefin Slab'; font-style: italic; font-weight: 100; src: url('../fonts/Josefin_Slab/JosefinSlab-ThinItalic.ttf'); } */
+/* @font-face { font-family: 'Josefin Slab'; font-style: italic; font-weight: 600; src: url('../fonts/Josefin_Slab/JosefinSlab-SemiBoldItalic.ttf'); } */
+/* @font-face { font-family: 'Josefin Slab'; font-style: normal; font-weight: 400; src: url('../fonts/Josefin_Slab/JosefinSlab-Regular.ttf'); } */
+/* @font-face { font-family: 'Josefin Slab'; font-style: normal; font-weight: 700; src: url('../fonts/Josefin_Slab/JosefinSlab-Bold.ttf'); } */
+/* @font-face { font-family: 'Josefin Slab'; font-style: italic; font-weight: 400; src: url('../fonts/Josefin_Slab/JosefinSlab-Italic.ttf'); } */
+/* @font-face { font-family: 'Josefin Slab'; font-style: normal; font-weight: 600; src: url('../fonts/Josefin_Slab/JosefinSlab-SemiBold.ttf'); } */
+/* @font-face { font-family: 'Josefin Slab'; font-style: normal; font-weight: 300; src: url('../fonts/Josefin_Slab/JosefinSlab-Light.ttf'); } */
+/* @font-face { font-family: 'Josefin Slab'; font-style: italic; font-weight: 700; src: url('../fonts/Josefin_Slab/JosefinSlab-BoldItalic.ttf'); } */
+/* @font-face { font-family: 'Josefin Slab'; font-style: normal; font-weight: 100; src: url('../fonts/Josefin_Slab/JosefinSlab-Thin.ttf'); } */
+
+/* @end */
+
+/* @group Anonymous Pro */
+
+@font-face { font-family: 'Anonymous Pro'; font-style: normal; font-weight: 400; src: url('../fonts/AnonymousPro/AnonymousPro-Regular.ttf'); }
+
+/* @end */
+
+/* @group Typography presets */
+
+.gigantic { font-size: 110px; line-height: 120px; letter-spacing: -2px; }
+.huge, h1 { font-size: 68px; line-height: 72px; letter-spacing: -1px; }
+.large, h2 { font-size: 42px; line-height: 48px; }
+.bigger, h3 { font-size: 26px; line-height: 36px; }
+.big, h4 { font-size: 22px; line-height: 30px; }
+.small, small { font-size: 13px; line-height: 18px; }
+
+/* @end */
+
+/* @group Selection colours (easy to forget) */
+
+::selection { background: rgb(251, 241, 80); }
+::-moz-selection { background: rgb(251, 241, 80); }
+img::selection { background: transparent; }
+img::-moz-selection { background: transparent; }
+body { -webkit-tap-highlight-color: rgb(251, 241, 80); }
+
+/* @end */
+
+body { font: 18px/26px "Josefin Sans" "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; background: #fffeff url(../img/backgrounds/light_wool.png); }
+a { color: rgb(65, 121, 158); text-decoration: none; }
+a:hover { color: black; }
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+@media only screen and (min-width: 992px) {
+	header#top { /* position: fixed; */ }
+}
+
+div#base {  background: url(../img/topbar.png) repeat-x 0 -10px; }
+div#container { width: 896px; padding: 72px 48px 84px; color: rgb(60,60,60); -webkit-text-size-adjust: 100%; margin: 0 auto; }
+
+/* @group Header */
+
+header#top { margin-bottom: 1em; width: 252px; float: left; }
+header#top h1 { font-family: 'Josefin Sans'; margin: 0; font-style: italic; font-size: 42px; line-height: 48px; }
+header#top h1 span.last_name { font-weight: normal; color: #424242; }
+header#top h1 a { color: #000; text-decoration: none; }
+header#top hr { margin: .5em auto; width: 252px; border-style: none; border-top: 1px solid #f0f0ee; }
+header#top p.slogan { /* font-family: 'Josefin Slab'; */ margin: 0; margin-bottom: .5em; }
+
+header#top nav { font-family: 'Josefin Sans'; }
+header#top nav select { display: none; }
+
+header#top aside { text-align: left; margin-top: 1.5em; }
+header#top aside h2 { font-size: 22px; line-height: 30px; }
+header#top aside ul { list-style: none; padding: 0; }
+header#top aside ul.photo_link_list li { display: inline; }
+header#top aside ul.photo_link_list img { max-width: 68px; display: inline; }
+header#top aside ul.tweet_list a[rel=bookmark] { margin-right: .5em; }
+header#top aside ul.tweet_list li { text-indent: 1em; }
+
+/* @end */
+
+/* @group Main */
+
+div#main { width: 620px; float: right; margin-bottom: 1em; background-color: #FFF; padding: .5em; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; }
+
+div#main ul.breadcrumb { list-style: none; padding: 0; margin: 0; background-color: #FFF; }
+div#main ul.breadcrumb li { display: inline; }
+/* div#main ul.breadcrumb li span.divider { color: #eee; } */
+
+div#main p, div#main ul, div#main ol, div#main dl, div#main table { margin-bottom: 1em; }
+
+div#main p.pullout, div#main p.pullout.right { width: 252px; padding: 0; float: right; margin: 12px 0 24px 36px; position: relative; top: 5px; font-size: 23px; line-height: 30px; color: #508cae; font-style: italic; }
+div#main p.pullout.left { float: left; }
+
+div#main ul, div#main ol, div#main dt { list-style-position: inside; margin-left: 1em; }
+
+div#main ul { list-style-type: disc; }
+div#main ul ul, div#main ol ol { margin-bottom: 0; margin-left: 1em; }
+div#main ol ol { list-style-type: lower-latin; }
+
+div#main dl dt { font-weight: bold; }
+div#main dl dd { margin-left: 1em; }
+
+div#main hr { margin: .5em auto; width: 252px; border-style: none; border-top: 1px solid #f0f0ee; }
+
+div#main table { width: 620px; text-align: left; }
+div#main table td, div#main table th { min-width: 68px; max-width: 160px; }
+div#main table thead th { border-bottom: 1px solid #000; text-align: center; }
+div#main table tfoot th { border-top: 1px solid #000; text-align: center; }
+div#main table td.centre, div#main table th.centre { text-align: center; }
+div#main table td.left, div#main table th.left { text-align: left; }
+div#main table td.right, div#main table th.right { text-align: right; }
+
+div#main div.illustration, div#main div.illustrations { margin: 1em; padding: 5px; background-color: #f2f2f2; width: 252px; border: 1px solid #e5e5e5; }
+div#main div.illustration img { display: block; margin: 0 auto; border: 1px solid #e5e5e5; }
+div#main div.illustration p, div#main div.illustrations p, div#main div.video p { font-style: italic; margin: 0; padding: 0; }
+div#main div.illustration.left { float: left; margin-left: 0; }
+div#main div.illustration.right { float: right; margin-right: 0; }
+div#main div.illustration.right img, div#main div.illustration.left img { max-width: 252px; }
+div#main div.illustration.centre, div#main div.illustrations { display: block; margin: 0 auto; margin-bottom: 1em; width: 100%; }
+div#main div.illustration.centre img { max-width: 620px; }
+div#main div.illustrations img { min-width: 160px; max-width: 160px; min-height: 160px; max-height: 160px; }
+
+div#main div.video { background-color: #f2f2f2; border: 1px solid #e5e5e5; margin: 1em; padding: 5px; }
+div#main div.video iframe, div#main div.video object { width: 100%; height: 436px; }
+
+div#main article { }
+
+div#main article header { margin-bottom: .5em; border-bottom: 1px solid #f0f0ee; /* text-align: center; */ }
+div#main article header h1, div#main article header h2 { margin: 0; font-size: 1.9em; }
+div#main article header p, div#main article footer p { margin: 0; }
+
+div#main article footer { border-top: 1px solid #f0f0ee; padding-top: .5em; }
+
+article section {  }
+article section h2 { font-size: 2em; line-height: 1; margin-bottom: 0; }
+article section h3 { font-size: 1.5em; line-height: 1; margin-bottom: 0; }
+
+div#main article div.highlight { background-color: #202020; color: #d0d0d0; margin-top: 15px; margin-bottom: 10px; border-top: 1px solid #cccccc; border-bottom: 1px solid #cccccc; }
+div#main article div.highlight pre { font-family: Menlo, "Anonymous Pro", "Courier New", Courier, mono; white-space: pre; word-wrap: normal; margin: 0; padding: 10px; border: none; overflow: auto; font-size: .9em; }
+
+div#main article blockquote { margin-left: 1em; color: #508cae; font-style: italic; }
+
+div#main form fieldset {  }
+div#main form fieldset label { display: block; line-height: 1; }
+div#main form fieldset input, div#main form fieldset textarea, div#main form fieldset select { border: 1px solid #999; margin-left: 0; width: 252px; }
+div#main form fieldset input:focus, div#main form fieldset textarea:focus, div#main form fieldset select:focus { border: 1px solid rgb(251, 241, 80); }
+div#main form fieldset input:invalid, div#main form fieldset textarea:invalid, div#main form fieldset select:invalid { border: 1px solid #F00; }
+
+div#main table#archive td { vertical-align: top; }
+
+/* @end */
+
+/* @group Footer */
+
+footer#bottom { margin: 0 auto; margin-top: 2em; padding-top: 1em; clear: both; }
+footer#bottom hr { margin: .5em auto; width: 252px; border-style: none; border-top: 1px solid #f0f0ee; }
+footer#bottom p { font-style: italic; text-align: center; /* font-family: 'Josefin Slab'; */ }
+footer#bottom p a { font-family: 'Josefin Sans'; color: #000; text-decoration: none; font-weight: bold; }
+
+/* @end */
+
+/*		Money Bags Layout: 1888px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1920: 32px.
+------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10    11    12    13    14    15    16
+px      68    160    252    344    436    528    620    712    804    896   988   1080  1172  1264  1356  1448    */
+@media only screen and (min-width: 1888px) {
+	div#container { width: 1700px; padding: 72px 48px 84px; margin: 0; }
+	header#top { width: 344px; }
+	div#main { width: 1264px; }
+	/* div#main article { columns: 528px; -webkit-columns: 528px; -moz-columns: 528px; }
+	div#main article header { column-span: all; -moz-column-span: all; -webkit-column-span: all; } */
+}
+
+/*		15" MacBook Layout: 1359px.
+		Gutters: 24px.
+		Outer Margins: 48px.
+		Leftover space for scrollbars @1440: 32px.
+		Inherits styles from: Default Layout.
+------------------------------------------------------------------------------
+cols	1	2	3	4	5	6	7	8	9	10	11	12		13		14		15
+px		68	160	252	344	436	528	620	712	804	896	988	1080	1172	1264	1356 */
+@media only screen and (min-width: 1359px) {
+	div#container { width: 1356px; padding: 72px 48px 84px; margin: 0 auto; }
+	header#top { width: 344px; }
+	div#main { width: 988px; }
+}
+
+/*		Layout: 1200px.
+		Gutters: 24px.
+		Outer Margins: 48px.
+		Leftover space for scrollbars @1280: 32px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols	1	2	3	4	5	6	7	8	9	10	11	12
+px		68	160	252	344	436	528	620	712	804	896	988	1080	*/
+@media only screen and (min-width: 1200px) {
+	div#container { width: 1080px; padding: 72px 48px 84px;  margin: 0 auto; }
+	header#top { width: 344px; }
+	div#main { width: 712px; }
+}
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	div#container { width: 712px; padding: 48px 28px 60px; }
+	header#top { width: 712px; float: none; text-align: center; }
+	header#top aside { display: none; }
+	div#main { width: 712px; float: none; margin: 1em 0; }
+	div#main table { width: 712px; }
+	
+	div#main div.video iframe, div#main div.video object { height: 344px; }
+	
+}
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+	div#container { width: 252px; padding: 48px 34px 60px; }
+	header#top { width: 252px; float: none; text-align: center; }
+	header#top aside { display: none; }
+	div#main { width: 252px; float: none; margin: 1em 0; }
+	div#main div.illustration.centre img { max-width: 252px; }
+	div#main table { width: 252px; }
+	div#main div.video iframe, div#main div.video object { height: 160px; }
+}
+
+@media only screen and (max-width: 320px) {
+	header#top { text-align: center; }
+	header#top hr { width: 68px; }
+	header#top h1 span.last_name { display: none; }
+	div#main div.illustration { width: 252px; float: none; }
+	div#main div.illustration.right img, div#main div.illustration.left img { max-width: 252px; }
+	header#top nav p { display: none; }
+	header#top nav select { display: inline-block;  }
+}
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	div#container { width: 436px; padding: 36px 22px 48px; }
+	header#top { width: 436px; float: none; text-align: center; }
+	div#main { width: 436px; float: none; margin: 1em 0; }
+	div#main div.illustration.centre img { max-width: 436px; }
+	div#main div.illustration.right img, div#main div.illustration.left img { max-width: 160px; }
+	div#main div.illustration { width: 160px; }
+	div#main table { width: 436px; }
+	div#main div.video iframe, div#main div.video object { height: 252px; }
+}
+
+
+/*		Small Mobile Layout: 240px
+		Gutters: 0px.
+		Outer magin: 0px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols	1	2
+px		68	160	*/
+
+@media only screen and (max-width: 240px) {
+	div#container { width: 240px; padding: 36px 0 48px; }
+	header#top, div#main { width: 240px; }
+	div#main div.illustration { width: 240px; float: none; }
+	div#main div.illustration.right img, div#main div.illustration.left img { max-width: 240px; }
+}

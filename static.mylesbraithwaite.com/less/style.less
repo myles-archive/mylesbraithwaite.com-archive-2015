@@ -1,0 +1,255 @@
+@import "bootstrap/bootstrap.less";
+
+body {
+	padding-top: 60px;
+	background-image: url(../img/backgrounds/light_wool.png);
+}
+
+// Pygments
+// -------------------------
+@import "pygments.less";
+
+// Accent colors
+// -------------------------
+
+@red: rgb(199, 77, 76);
+@green: rgb(147, 229, 170);
+@blue: rgb(80, 140, 174);
+@yellow: rgb(252, 241, 98);
+
+@brand-primary: @red;
+
+// Links
+// -------------------------
+
+@link-color: @brand-primary;
+@link-hover-color: darken(@link-color, 15%);
+
+
+// Typography
+// -------------------------
+
+// Fonts
+@import "fonts.less";
+
+// Headings
+@headings-font-family: "Josefin Sans", @font-family-base;
+
+
+// Iconography
+// -------------------------
+
+@icon-font-path: "../fonts/Bootstrap/";
+@icon-font-name: "glyphicons-halflings-regular";
+
+
+// Navbar
+// -------------------------
+
+// Basics of a navbar
+@navbar-height: 50px;
+@navbar-default-color: @gray-light;
+@navbar-default-bg: @brand-primary;
+
+// Navbar links
+@navbar-default-link-color: #FFF;
+@navbar-default-link-hover-color: darken(@navbar-default-link-color, 15%);
+@navbar-default-link-active-color: darken(@navbar-default-bg, 85%);
+@navbar-default-link-active-bg: darken(@navbar-default-bg, 10%);
+
+// Navbar brand label
+@navbar-default-brand-color: @navbar-default-link-color;
+@navbar-default-brand-hover-color: darken(@navbar-default-link-color, 10%);
+@navbar-default-brand-hover-bg: transparent;
+
+// Navbar toggle
+@navbar-default-toggle-hover-bg: @navbar-default-link-active-color;
+@navbar-default-toggle-icon-bar-bg: #fff;
+@navbar-default-toggle-border-color: none;
+
+
+.navbar {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAAPCAIAAABFmg65AAAAbklEQVR4nO3UoRHCQAAAQcKkvNACLj2lg5hILBpDUWnh3c/N7FZw6pbfa3sw5n+8ZydkfM91dkLGtX9mJ2Q8ZwcAjDIsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIOMG0h0GbY2gSDcAAAAASUVORK5CYII=');
+	background-repeat: repeat-x;
+	background-position: 0 -10px;
+	padding-top: 5px;
+}
+
+// Remove my last name on screen sizes smaller than @screen-xs
+@media (max-width: @screen-xs) {
+	.navbar .navbar-brand .last {
+		.hidden();
+	}
+}
+
+iframe, object {
+	.thumbnail();
+	
+	display: block;
+	margin: 1em;
+}
+
+.fluid-width-video-wrapper {
+	margin-bottom: 2em;
+	display: block;
+	
+	iframe {
+		margin: 0;
+	}
+}
+
+h3 small:hover {
+	color: @text-color;
+}
+
+// Old Post Formats
+// -------------------------
+
+.illustration a img,
+.illustration iframe,
+.illustration object {
+	.img-thumbnail();
+	.center-block();
+	margin-bottom: 1em;
+}
+
+// Lightbox
+// -------------------------
+
+.ekko-lightbox {
+	&-container {
+		position:relative;
+	}
+	
+	&-nav-overlay {
+		z-index:100;
+		position: absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		
+		a {
+			opacity: 0;
+			-webkit-transition: opacity 0.5s;
+			-moz-transition: opacity 0.5s;
+			-o-transition: opacity 0.5s;
+			transition: opacity 0.5s;
+			color:#fff;
+			font-size:30px;
+			height: 100%;
+			width:49%;
+			display:block;
+			padding-top:45%;
+			text-shadow: 2px 2px 4px #000;
+			filter: dropshadow(color=#000, offx=2, offy=2);
+			z-index:100;
+			
+			&:empty {
+				width:49%;
+			}
+		}
+	}
+	
+	a:hover {
+		opacity: 1;
+		text-decoration: none;
+	}
+	
+	.glyphicon-chevron-left {
+		padding-left:15px;
+		float:left;
+		left:0;
+		text-align: left;
+	}
+	
+	.glyphicon-chevron-right {
+		padding-right:15px;
+		float:right;
+		right:0;
+		text-align: right;
+	}
+	
+	.modal-footer {
+		text-align: left;
+	}
+}
+
+// Calendar
+// -------------------------
+
+table.month {
+	.table();
+	.table-striped();
+	.table-bordered();
+
+	background-color: #FFF;
+	
+	tr {
+
+		td {
+			width: 14.285714%;			
+
+			ul {
+				font-size: @font-size-small;
+				overflow: auto;
+				height: 100px;
+			}
+		}
+	}
+	
+	td.today {
+		background-color: @state-success-bg;
+		border-color: @state-success-border;
+	}
+}
+
+// Login
+// -------------------------
+
+body#login {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #eee;
+	
+	.form-signin {
+		max-width: 330px;
+		padding: 15px;
+		margin: 0 auto;
+		z-index: 2;
+		
+		.checkbox {
+			font-weight: normal;
+		}
+		
+		.form-control {
+			position: relative;
+			font-size: 16px;
+			height: auto;
+			padding: 10px;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			
+			&:focus {
+				z-index: 2;
+			}
+		}
+		
+		input[type="text"] {
+			margin-bottom: -1px;
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0;
+		}
+		
+		input[type="password"] {
+			margin-bottom: 10px;
+			border-top-left-radius: 0;
+			border-top-right-radius: 0;
+		}
+	}
+	
+	.form-signin .form-signin-heading, .form-signin .checkbox {
+		margin-bottom: 10px;
+	}
+}
